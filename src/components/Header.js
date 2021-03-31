@@ -8,7 +8,7 @@ const Header = () => {
         <Row className='header d-flex align-items-center mx-0'>
             <h1>Easy start with Vlava</h1>
             <h2>We are team of talented designers making websites with Bootstrap</h2>
-            <a href="#about" class="btn-get-started scrollto">Get Started</a>
+            <a href="#about" className="btn-get-started scrollto">Get Started</a>
         </Row>
     )
 }
