@@ -7,11 +7,11 @@ import '../styles/navigation.styles.scss'
 
 const Navigation = () => {
     const location = useLocation()
-    const [background, setBackground] = useState('transparent')
+    const [background, setBackground] = useState('')
 
     useEffect(() => {
         if(location.pathname === '/' || location.pathname  === '/inicio') {
-            setBackground('transparent')
+            setBackground('')
         } else if (location.pathname  === '/culturamenstrual' || location.pathname  === '/contacto' ) {
             setBackground('dark')
         }
@@ -19,15 +19,15 @@ const Navigation = () => {
 
     return (
         
-        <Navbar collapseOnSelect expand="lg" bg={background} variant="dark" className='navigation p-0'>
-            <Container fluid className='py-3'>
+        <Navbar collapseOnSelect fixed="top" expand="md" bg={background} variant="dark" className='p-0'>
+            <Container fluid className='py-3 px-2 px-md-4'>
                 <LinkContainer to='/inicio' activeClassName='no-class'>
-                    <Navbar.Brand href="#home" className="text-white px-2 py-0">ASC</Navbar.Brand>                
+                    <Navbar.Brand href="#home" className="text-white py-0">ASC</Navbar.Brand>                
                 </LinkContainer>
 
-                <Navbar.Toggle aria-controls="responsive-navbar-nav" className='custom-toggler border-0'/>
+                <Navbar.Toggle aria-controls="responsive-navbar-nav" className='border-0 p-0'/>
                     <Navbar.Collapse id="responsive-navbar-nav">
-                        <Nav className="ml-auto" activeKey={location.pathname} defaultActiveKey='/'>
+                        <Nav className="text-right mr-0 ml-md-auto" activeKey={location.pathname} defaultActiveKey='/'>
                             <LinkContainer to='/inicio'>
                                 <Nav.Link className="text-white py-0">Inicio</Nav.Link>
                             </LinkContainer>
@@ -38,7 +38,7 @@ const Navigation = () => {
                                 <Nav.Link className="text-white py-0">Contacto</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to='/contacto'>
-                                <Nav.Link className="text-white py-0">RRSS</Nav.Link>
+                                <Nav.Link className="text-white py-0 pr-0">RRSS</Nav.Link>
                             </LinkContainer>
                         </Nav>
                 </Navbar.Collapse>
