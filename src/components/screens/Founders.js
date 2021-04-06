@@ -11,20 +11,26 @@ import '../../styles/founders.styles.scss'
 
 const Founders = () => {
     return (
-        <Container className='pb-5'>
+        <Container fluid className='founders pb-5'>
             <Row className='d-flex justify-content-center mb-5 m-0'>
                 <h1 className='m-0'>Fundadoras</h1>
             </Row>
             <Row className='m-0'>
-                <Col sm={12} md={4} lg={4} className='d-flex align-items-stretch'>
-                    <div className='founder text-center rounded mb-4'>
-                        <div className='founder_img'>
+                <Col lg={6} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
+                        <div className='founder_pic px-0'>
                             <Image 
+                                className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}
                                 width='100%'
                             />
-                             <div className='social d-flex justify-content-center align-items-center'>
+                        </div>
+                        <div className='founder_info mt-3'>
+                            <h4>Carolina Ackermann</h4>
+                            <span>Espacio Matriz</span>
+                            <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
+                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
@@ -35,22 +41,24 @@ const Founders = () => {
                                     <FaTelegram size={24} />
                                 </Nav.Link>
                             </div>
-                        </div>
-                        <div class="founder_info p-3">
-                            <h4>Carolina Ackermann</h4>
-                            <span>Espacio Matriz</span>
                         </div>
                     </div>
                 </Col>
-                <Col sm={12} md={4} lg={4} className='d-flex align-items-stretch'>
-                    <div className='founder text-center rounded mb-4'>
-                        <div className='founder_img'>
+                <Col lg={6} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
+                        <div className='founder_pic px-0'>
                             <Image 
+                                className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}
                                 width='100%'
                             />
-                             <div className='social d-flex justify-content-center align-items-center'>
+                        </div>
+                        <div className='founder_info mt-3'>
+                            <h4>Carolina Ackermann</h4>
+                            <span>Espacio Matriz</span>
+                            <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
+                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
@@ -61,22 +69,24 @@ const Founders = () => {
                                     <FaTelegram size={24} />
                                 </Nav.Link>
                             </div>
-                        </div>
-                        <div class="founder_info p-3">
-                            <h4>Carolina Ackermann</h4>
-                            <span>Espacio Matriz</span>
                         </div>
                     </div>
                 </Col>
-                <Col sm={12} md={4} lg={4} className='d-flex align-items-stretch'>
-                    <div className='founder text-center rounded mb-4'>
-                        <div className='founder_img'>
+                <Col lg={6} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
+                        <div className='founder_pic px-0'>
                             <Image 
+                                className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}
                                 width='100%'
                             />
-                             <div className='social d-flex justify-content-center align-items-center'>
+                        </div>
+                        <div className='founder_info mt-3'>
+                            <h4>Carolina Ackermann</h4>
+                            <span>Espacio Matriz</span>
+                            <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
+                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
@@ -87,10 +97,6 @@ const Founders = () => {
                                     <FaTelegram size={24} />
                                 </Nav.Link>
                             </div>
-                        </div>
-                        <div class="founder_info p-3">
-                            <h4>Carolina Ackermann</h4>
-                            <span>Espacio Matriz</span>
                         </div>
                     </div>
                 </Col>
