@@ -1,0 +1,52 @@
+.founder {
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+
+    &_img {
+        position: relative;
+        overflow: hidden;
+    }
+
+    &_info h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        font-size: 18px;
+        color: #052c3f;
+    }
+
+    &_info span {
+        display: block;
+        font-size: 15px;
+        font-weight: 400;
+        color: #aaaaaa;
+    }
+
+}
+
+.social {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.85);
+
+    & a {
+        transition: color 0.3s;
+        color: #052c3f;
+        margin: 0 10px;
+        padding-top: 8px;
+        display: inline-block;
+    }
+
+    & a:hover {
+        color: #85b0be;
+    }
+}
+
+.founder:hover .social {
+    opacity: 1;
+}
