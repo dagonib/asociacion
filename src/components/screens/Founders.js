@@ -30,7 +30,7 @@ const Founders = () => {
                             <h4>Carolina Ackermann</h4>
                             <span>Espacio Matriz</span>
                             <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
-                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
+                            <div className='social d-flex justify-content-center justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
@@ -58,7 +58,7 @@ const Founders = () => {
                             <h4>Carolina Ackermann</h4>
                             <span>Espacio Matriz</span>
                             <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
-                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
+                            <div className='social d-flex justify-content-center justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
@@ -86,7 +86,7 @@ const Founders = () => {
                             <h4>Carolina Ackermann</h4>
                             <span>Espacio Matriz</span>
                             <p>Mi proyecto personal: @espaciomatriz. Cultura menstrual y cultura del climaterio para todes. Tallerista y coordinadora de eventos relacionados con la salud ginecológica, la educación menstrual y climatérica. Soy activista por el derecho al conocimiento del propio cuerpo, su funcionamiento y los recursos necesarios para vivir en salud. Creadora del curso virtual 'Bienestar para la mujer cíclica' y de la agenda anual “Mujer Sin Reglas”.</p>
-                            <div className='social d-flex justify-content-center justify-content-around justify-content-sm-start mt-3'>
+                            <div className='social d-flex justify-content-center justify-content-sm-start mt-3'>
                                 <Nav.Link className='p-0 mr-2'>
                                     <FaFacebook size={24} />
                                 </Nav.Link>
