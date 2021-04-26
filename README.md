@@ -1,53 +1,22 @@
-Card
-                <Col sm={12} md={4} lg={4} className='d-flex align-items-stretch'>
-                    <div className='founder text-center rounded mb-4'>
-                        <div className='founder_img'>
-                            <Image 
-                                alt='founder-1'
-                                src={founder_3}
-                                width='100%'
-                            />
-                             <div className='social d-flex justify-content-center align-items-center'>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaFacebook size={24} />
-                                </Nav.Link>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaInstagramSquare size={24} />
-                                </Nav.Link>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaTelegram size={24} />
-                                </Nav.Link>
-                            </div>
+<Row className='m-0'>
+                <Col sm={12} md={6} className='p-2'>
+                    <div className='activity d-flex align-items-stretch p-4'>
+                        <div>
+                            <i>Icono</i>
                         </div>
-                        <div class="founder_info p-3">
-                            <h4>Carolina Ackermann</h4>
-                            <span>Espacio Matriz</span>
+                        <div>
+                            <h4></h4>
+                            <p>Quiero Adherirme</p>
                         </div>
                     </div>
                 </Col>
-                <Col sm={12} md={4} lg={4} className='d-flex align-items-stretch'>
-                    <div className='founder text-center rounded mb-4'>
-                        <div className='founder_img'>
-                            <Image 
-                                alt='founder-1'
-                                src={founder_3}
-                                width='100%'
-                            />
-                             <div className='social d-flex justify-content-center align-items-center'>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaFacebook size={24} />
-                                </Nav.Link>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaInstagramSquare size={24} />
-                                </Nav.Link>
-                                <Nav.Link className='p-0 mr-2'>
-                                    <FaTelegram size={24} />
-                                </Nav.Link>
-                            </div>
-                        </div>
-                        <div class="founder_info p-3">
-                            <h4>Carolina Ackermann</h4>
-                            <span>Espacio Matriz</span>
-                        </div>
+                <Col sm={12} md={6} className='p-2'>    
+                    <div className='activity d-flex align-items-stretch p-4'>
+                        <i>Icono</i>
+                        <h4>Documento elaborado para la ponencia: “Feminismos y Ciclo Menstrual”.</h4>
+                        <p>Lo quiero</p>
                     </div>
                 </Col>
+            </Row>
+
+             button:   width: fit-content;

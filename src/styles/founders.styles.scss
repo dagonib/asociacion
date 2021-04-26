@@ -2,12 +2,21 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
     background: #fff;
 
-    &_pic {
-        overflow: hidden;
-        border-radius: 50%;
-    }
     &_img {
         transition: ease-in-out 0.3s; 
+        width: 65%;
+
+        @media only screen and (min-width: 576px) {
+            width:100%;
+        }
+    
+        @media only screen and (min-width: 768px) {
+            width: 100%;
+        }
+    
+        @media only screen and (min-width: 992px) {
+            width: 50%;
+        }
     }
 
     &_info {

@@ -16,10 +16,11 @@ const Founders = () => {
                 <h1 className='m-0'>Fundadoras</h1>
             </Row>
             <Row className='m-0'>
-                <Col lg={6} className='p-2'>
-                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
-                        <div className='founder_pic px-0'>
+                <Col lg={4} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start p-4'>
+                        <div className='d-flex justify-content-center px-0'>
                             <Image 
+                                roundedCircle
                                 className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}
@@ -44,10 +45,11 @@ const Founders = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={6} className='p-2'>
-                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
-                        <div className='founder_pic px-0'>
+                <Col lg={4} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start p-4'>
+                        <div className='d-flex justify-content-center px-0'>
                             <Image 
+                                roundedCircle
                                 className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}
@@ -72,10 +74,11 @@ const Founders = () => {
                         </div>
                     </div>
                 </Col>
-                <Col lg={6} className='p-2'>
-                    <div className='founder d-flex flex-column flex-sm-row align-items-center align-items-sm-start p-4'>
-                        <div className='founder_pic px-0'>
+                <Col lg={4} className='p-2'>
+                    <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start p-4'>
+                        <div className='d-flex justify-content-center px-0'>
                             <Image 
+                                roundedCircle
                                 className='founder_img'
                                 alt='founder-1'
                                 src={founder_3}

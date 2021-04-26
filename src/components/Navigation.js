@@ -35,9 +35,6 @@ const Navigation = () => {
                                 <Nav.Link className="text-white py-0">Cultura Menstrual</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to='/contacto'>
-                                <Nav.Link className="text-white py-0">Contacto</Nav.Link>
-                            </LinkContainer>
-                            <LinkContainer to='/contacto'>
                                 <Nav.Link className="text-white py-0 pr-0">RRSS</Nav.Link>
                             </LinkContainer>
                         </Nav>
