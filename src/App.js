@@ -4,7 +4,6 @@ import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 import HomeScreen from './screens/HomeScreen'
 import CulturaMenstrualScreen from './screens/CulturaMenstrualScreen'
-import ContactScreen from './screens/ContactScreen'
 
 import './App.scss'
 
@@ -16,7 +15,6 @@ const App = () => {
             <Route path='/' component={HomeScreen} exact />
             <Route path='/inicio' component={HomeScreen} />
             <Route path='/culturamenstrual' component={CulturaMenstrualScreen} />
-            <Route path='/contacto' component={ContactScreen} />
         </main>
         <Footer />
     </Router>

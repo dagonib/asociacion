@@ -1,0 +1,19 @@
+.research {
+    background: url(../../assets/img/mapa-mundi.png) top center;
+    position: relative;
+    background-size: cover;
+
+    &:before {
+        content: "";
+        background: rgba(255, 255, 255, 0.95);
+        position: absolute;
+        bottom: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+}
+
+.research .container {
+    position: inherit;
+}
