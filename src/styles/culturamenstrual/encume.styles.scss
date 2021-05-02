@@ -8,7 +8,8 @@
 }
 
 .encume-text {
-    font-size: 1rem;
+    text-align: justify;
+    color: #fff;
 }
 
 .encume-backgroundtext {
@@ -21,4 +22,33 @@
     -ms-transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
+
+    p {
+        font-size: 1rem!important;
+        color: #fff;
+
+        @media only screen and (min-width: 576px) {
+            font-size: 1.1rem!important;
+        }
+
+        @media only screen and (min-width: 768px) {
+            font-size: 1.3rem!important;
+        }
+
+        @media only screen and (min-width: 992px) {
+            font-size: 1.4rem!important;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            font-size: 1.5rem!important;
+            line-height: 2.1!important;
+        }
+    }
+}
+
+.encume_button {
+    color: #C42664!important;
+    background-color: #D2D2C9!important;
+    border-color: #D2D2C9!important;
+    font-weight: 600!important;
 }

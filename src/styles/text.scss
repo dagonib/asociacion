@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto&display=swap');
+
+@import './colors.scss';
+
+.association-name {
+    font-family: 'Dancing Script', "cursive";
+}
+
+.header-title {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title-section {
+    font-family: 'Dancing Script', "cursive";
+    font-size: 2.3rem!important;
+    color: $primary;
+
+    @media only screen and (min-width: 576px) {
+        font-size: 2.6rem!important;
+    }
+
+    @media only screen and (min-width: 768px) {
+        font-size: 2.8rem!important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        font-size: 3rem!important;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 3.5rem!important;
+    }
+}
+
+.normal-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: .8rem!important;
+    line-height: 1.7;
+
+    @media only screen and (min-width: 576px) {
+        font-size: 1rem!important;
+    }
+
+    @media only screen and (min-width: 768px) {
+        font-size: 0.9rem!important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        font-size: 1.2rem!important;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 1.4rem!important;
+        line-height: 2.1!important;
+    }
+}
+
+.small-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: .9rem!important;
+
+    @media only screen and (min-width: 576px) {
+        font-size: 1rem!important;
+    }
+
+    @media only screen and (min-width: 768px) {
+        font-size: 0.9rem!important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        font-size: .9rem!important;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 1.1rem!important;
+    }
+}
+
