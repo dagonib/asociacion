@@ -1,0 +1,29 @@
+@import '../colors.scss';
+
+.press {
+
+    & h4 {
+        font-weight: 700;
+        margin-bottom: 5px;
+        color: $primary!important;
+        font-size: 1.2rem!important;
+        font-weight: 500;
+
+        @media only screen and (min-width: 576px) {
+            font-size: 1.3rem!important;
+        }
+
+        @media only screen and (min-width: 768px) {
+            font-size: 1.3rem!important;
+        }
+
+        @media only screen and (min-width: 992px) {
+            font-size: 1.3rem!important;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            font-size: 1.4rem!important;
+        }
+    }
+
+}

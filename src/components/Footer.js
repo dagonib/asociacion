@@ -16,13 +16,13 @@ const Footer = () => {
                     <Row className="d-flex align-items-center mx-0 py-4">
                         {/*<!-- Asociación de Cultura Menstrual -->*/} 
                         <Col md={4} className="text-center px-0">
-                            <h1 className="text-white">Asociación de Cultura Menstrual</h1>
-                            <p className="text-white">Cataluña</p>
+                            <p className="text-white m-0">Asociación de Cultura Menstrual</p>
+                            <p className="text-white m-0">Cataluña</p>
                         </Col>
                         {/*<!-- RRSS -->*/}
                         <Col md={4} className="d-flex flex-column align-items-center px-0">
                            <Row>
-                                <h1 className="text-white">Socializa</h1>
+                                <p className="text-white">Socializa</p>
                             </Row> 
                             <Row>
                                 <Nav.Link className='p-0 mr-2'>
@@ -40,7 +40,7 @@ const Footer = () => {
                         {/*<!-- Navigation -->*/}
                         <Col md={4} className="px-0">
                             <Row className="d-flex flex-column align-items-center">
-                                <h1 className="text-white">Navegación</h1>
+                                <p className="text-white">Navegación</p>
                             </Row> 
                             <Nav className="d-flex flex-column align-items-center">
                                 <LinkContainer to='/inicio'>
@@ -53,6 +53,10 @@ const Footer = () => {
                                     <Nav.Link>Contacto</Nav.Link>
                                 </LinkContainer>
                             </Nav>
+                        </Col>
+                    </Row><Row>
+                        <Col className='text-white text-center p-2'>
+                            <p>Salvemos la revista MyS (Mujeres y Salud) SUSCRÍBETE en www.mys.matriz.net</p>
                         </Col>
                     </Row>
                     <Row>
