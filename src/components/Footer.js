@@ -3,7 +3,7 @@ import { Row, Col, Nav, Container } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 // Iconos
-import { FaFacebook, FaInstagramSquare, FaTelegram } from "react-icons/fa";
+import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
 
 import '../styles/footer.styles.scss'
 
@@ -16,52 +16,53 @@ const Footer = () => {
                     <Row className="d-flex align-items-center mx-0 py-4">
                         {/*<!-- Asociación de Cultura Menstrual -->*/} 
                         <Col md={4} className="text-center px-0">
-                            <p className="text-white m-0">Asociación de Cultura Menstrual</p>
-                            <p className="text-white m-0">Cataluña</p>
+                            <h4 className="title-section text-white m-0">Asociación de Cultura Menstrual</h4>
                         </Col>
                         {/*<!-- RRSS -->*/}
-                        <Col md={4} className="d-flex flex-column align-items-center px-0">
+                        <Col md={4} className="d-flex flex-column align-items-center my-4 px-0">
                            <Row>
-                                <p className="text-white">Socializa</p>
+                                <h4 className="title-section text-white mb-1 mb-0 ">Socializa</h4>
                             </Row> 
                             <Row>
-                                <Nav.Link className='p-0 mr-2'>
+                                <Nav.Link 
+                                    href='https://www.facebook.com/lavidaenrojoasociacion' 
+                                    target="_blank"
+                                    className='rrss-icon p-0 mr-2'
+                                >
                                     <FaFacebook size={20} />
                                 </Nav.Link>
-                                <Nav.Link className='p-0 mr-2'>
+                                <Nav.Link 
+                                    href='https://www.instagram.com/lavidaenrojoasociacion/' 
+                                    target="_blank"
+                                    className='rrss-icon p-0 mr-2'
+                                >
                                     <FaInstagramSquare size={20} />
                                 </Nav.Link>
-                                <Nav.Link className='p-0 mr-0'>
-                                    <FaTelegram size={20} />
-                                </Nav.Link> 
                             </Row>
                             
                         </Col>
                         {/*<!-- Navigation -->*/}
                         <Col md={4} className="px-0">
                             <Row className="d-flex flex-column align-items-center">
-                                <p className="text-white">Navegación</p>
+                                <h4 className="title-section text-white mb-1 m-0">Navegación</h4>
                             </Row> 
                             <Nav className="d-flex flex-column align-items-center">
                                 <LinkContainer to='/inicio'>
-                                    <Nav.Link>Inicio</Nav.Link>
+                                    <Nav.Link className='text-white p-0'>Inicio</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to='/carolina'>
-                                    <Nav.Link>Cultura Menstrual</Nav.Link>
-                                </LinkContainer>
-                                <LinkContainer to='/el-proyecto'>
-                                    <Nav.Link>Contacto</Nav.Link>
+                                <LinkContainer to='/culturamenstrual'>
+                                    <Nav.Link className='text-white p-0'>Cultura Menstrual</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                         </Col>
                     </Row><Row>
                         <Col className='text-white text-center p-2'>
-                            <p>Salvemos la revista MyS (Mujeres y Salud) SUSCRÍBETE en www.mys.matriz.net</p>
+                            <p className='small-text'>Salvemos la revista MyS (Mujeres y Salud). <br/>SUSCRÍBETE en www.mys.matriz.net</p>
                         </Col>
                     </Row>
                     <Row>
-                        <Col className='text-white text-center p-2'>
-                            Design by Slash 2021
+                        <Col className='small-text text-center p-2'>
+                            <h3>Design by Slash 2021</h3>
                         </Col>
                     </Row>
                 </Container>

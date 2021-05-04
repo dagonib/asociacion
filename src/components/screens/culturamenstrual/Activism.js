@@ -3,7 +3,6 @@ import { Row, Col, Image, Container, Card, Button } from 'react-bootstrap'
 
 // Assets
 import img_manifiesto from '../../../assets/img/logos/manifiesto.png'
-import mocion from '../../../assets/files/mocion.pdf'
 // Styles
 import '../../../styles/culturamenstrual/activism.styles.scss'
 

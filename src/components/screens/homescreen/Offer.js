@@ -1,4 +1,4 @@
-import React, { useLayaoutEffect, useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Image, Container } from 'react-bootstrap'
 
 import useWindowSize from '../../../utilities/useWindowSize'
