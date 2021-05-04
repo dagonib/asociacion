@@ -36,7 +36,7 @@ const Offer = () => {
                 {width > 767 ? (
                     <Image
                         className='purpose-image'
-                        src={img_offer}
+                        src={img_offer_md}
                     />
                 ) : (
                     <Image
