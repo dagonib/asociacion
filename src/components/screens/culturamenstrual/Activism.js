@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container, Card, Button, ListGroup, ListGroupItem } from 'react-bootstrap'
+import { Row, Col, Image, Container, Card, Button } from 'react-bootstrap'
 
 // Assets
 import img_manifiesto from '../../../assets/img/logos/manifiesto.png'
@@ -8,10 +8,6 @@ import logo from '../../../assets/img/logos/logo-icon.png'
 
 // Styles
 import '../../../styles/culturamenstrual/activism.styles.scss'
-
-// Iconos
-import { FaFacebook } from "react-icons/fa";
-
 
 const Activism = () => {
     return (
