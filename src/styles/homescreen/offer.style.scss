@@ -1,8 +1,49 @@
+@import '../colors.scss';
+
 .offer {
 
 }
 
+.offer-content {
+    background-color: $grey-dark;
+}
+
 .offer-text {
     text-align: justify;
-    color: #fff;
+    color: rgb(201, 201, 201);
+}
+
+.offer-backgroundtext {
+    color: black;
+    position: absolute;
+    z-index: 100;    
+    text-align: center;
+    top: 50%;
+    left: 0%;
+    -ms-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+    p {
+        font-size: .8rem!important;
+        color: #fff;
+
+        @media only screen and (min-width: 576px) {
+            font-size: .9rem!important;
+        }
+
+        @media only screen and (min-width: 768px) {
+            font-size: .9rem!important;
+        }
+
+        @media only screen and (min-width: 992px) {
+            font-size: .8rem!important;
+            line-height: 1.6!important;
+        }
+
+        @media only screen and (min-width: 1200px) {
+            font-size: .8rem!important;
+            line-height: 1.6!important;
+        }
+    }
 }

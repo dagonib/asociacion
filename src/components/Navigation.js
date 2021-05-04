@@ -8,7 +8,7 @@ import RRSS from './RRSS'
 import '../styles/navigation.styles.scss'
 
 //Imágenes
-import logo from '../assets/img/logos/logo-blanco.png'
+import logo from '../assets/img/logos/logo-horiz-blanco.png'
 
 const Navigation = () => {
     const location = useLocation()
@@ -32,7 +32,7 @@ const Navigation = () => {
                             className='logo'
                             alt='founder-1'
                             src={logo}
-                            width='50%'
+                            width='100%'
                         />   
                     </Navbar.Brand>                
                 </LinkContainer>
