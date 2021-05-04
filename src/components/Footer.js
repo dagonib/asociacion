@@ -1,9 +1,11 @@
 import React from 'react'
-import { Row, Col, Nav, Container } from 'react-bootstrap'
+import { Row, Col, Nav, Navbar, Container, Image } from 'react-bootstrap'
 import { LinkContainer } from 'react-router-bootstrap'
 
 // Iconos
 import { FaFacebook, FaInstagramSquare } from "react-icons/fa";
+//Imágenes
+import logo from '../assets/img/logos/logo-horiz-blanco.png'
 
 import '../styles/footer.styles.scss'
 
@@ -17,6 +19,14 @@ const Footer = () => {
                         {/*<!-- Asociación de Cultura Menstrual -->*/} 
                         <Col md={4} className="text-center px-0">
                             <h4 className="title-section text-white m-0">Asociación de Cultura Menstrual</h4>
+                            <Navbar.Brand href="#home" className="text-white mt-2 py-0">
+                                <Image 
+                                    className='logo'
+                                    alt='founder-1'
+                                    src={logo}
+                                    width='100%'
+                                />   
+                            </Navbar.Brand>  
                         </Col>
                         {/*<!-- RRSS -->*/}
                         <Col md={4} className="d-flex flex-column align-items-center my-4 px-0">

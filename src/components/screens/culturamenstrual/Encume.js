@@ -26,12 +26,12 @@ const Encume = () => {
                 </Container>
                 {width > 767 ? (
                     <Image
-                        className='purpose-image'
+                        className='encume-image'
                         src={img_offer_md}
                     />
                 ) : (
                     <Image
-                        className='purpose-image'
+                        className='encume-image'
                         src={img_offer}
                     />
                 )}

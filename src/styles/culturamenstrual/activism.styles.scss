@@ -3,6 +3,30 @@
     box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
+.logo {
+    width: 30px;
+}
+
+.card-title {
+    font-size: .9rem!important;
+
+    @media only screen and (min-width: 576px) {
+        font-size: 1rem!important;
+    }
+
+    @media only screen and (min-width: 768px) {
+        font-size: 0.9rem!important;
+    }
+
+    @media only screen and (min-width: 992px) {
+        font-size: .9rem!important;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        font-size: 1.1rem!important;
+    }
+}
+
 .activity {
 
     width: 90%;
