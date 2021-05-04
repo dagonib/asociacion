@@ -1,5 +1,5 @@
 import React from 'react'
-import { Row, Col, Image, Container, Button } from 'react-bootstrap'
+import { Row, Col, Container, Button } from 'react-bootstrap'
 
 // Styles
 import '../../../styles/culturamenstrual/research.styles.scss'
@@ -9,10 +9,10 @@ const Research = () => {
         <Row className='research my-5 m-0'>
             <Container className='container p-5'>
                 <Row className='d-flex flex-column m-0'>
-                    <h2 className='text-center m-0'>Investigación</h2>
+                    <h2 className='title-section m-0 text-center m-0'>Investigación</h2>
                 </Row>
                 <Row className='d-flex flex-column mt-4 m-0'>
-                    <p className='text-center font-weight-bold normal-text'>Alteraciones del ciclo menstrual y confinamiento</p>
+                    <p className='font-weight-bold normal-text'>Alteraciones del ciclo menstrual y confinamiento</p>
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
                     <Col   >
@@ -31,7 +31,7 @@ const Research = () => {
                     >Leer Artículo</Button>
                 </Row>
                 <Row className='d-flex flex-column mt-4 m-0'>
-                    <p className='text-center font-weight-bold normal-text'>Atención sanitaria en menopausia y climaterio. Recogida de información y testimonios en el Estado español. </p>
+                    <p className='font-weight-bold normal-text'>Atención sanitaria en menopausia y climaterio. Recogida de información y testimonios en el Estado español. </p>
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
                     <Col   >
