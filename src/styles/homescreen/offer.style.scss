@@ -9,41 +9,19 @@
 }
 
 .offer-text {
-    text-align: justify;
+    font-size: 0.8rem!important;
     color: rgb(201, 201, 201);
+
+    @media only screen and (min-width: 992px) {
+        font-size: 1.1rem!important;
+    }
 }
 
-.offer-backgroundtext {
-    color: black;
-    position: absolute;
-    z-index: 100;    
-    text-align: center;
-    top: 50%;
-    left: 0%;
-    -ms-transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
+.offer-text-small {
+    color: rgb(201, 201, 201);
+    font-size: 0.7rem!important;
 
-    p {
-        font-size: .8rem!important;
-        color: #fff;
-
-        @media only screen and (min-width: 576px) {
-            font-size: .9rem!important;
-        }
-
-        @media only screen and (min-width: 768px) {
-            font-size: .9rem!important;
-        }
-
-        @media only screen and (min-width: 992px) {
-            font-size: .8rem!important;
-            line-height: 1.6!important;
-        }
-
-        @media only screen and (min-width: 1200px) {
-            font-size: .8rem!important;
-            line-height: 1.6!important;
-        }
+    @media only screen and (min-width: 992px) {
+        font-size: 0.9rem!important;
     }
 }

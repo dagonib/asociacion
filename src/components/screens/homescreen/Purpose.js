@@ -13,7 +13,7 @@ const Purpose = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='purpose d-flex flex-column flex-md-row align-items-stretch mt-5 m-0'>
+        <Row className='purpose d-flex flex-column flex-md-row align-items-stretch m-0'>
             <Col className='p-0'>
                 {width > 767 ? (
                     <Image
