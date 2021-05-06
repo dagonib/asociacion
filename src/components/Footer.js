@@ -72,7 +72,7 @@ const Footer = () => {
                     </Row>
                     <Row>
                         <Col className='small-text text-center p-2'>
-                            <h3>Design by Slash 2021</h3>
+                            <h3>Design by SlashDEV@2021</h3>
                         </Col>
                     </Row>
                 </Container>

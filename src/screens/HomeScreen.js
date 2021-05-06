@@ -11,8 +11,8 @@ const HomeScreen = () => {
             <Header />
             <Purpose />
             <Founders />
-            <Offer />
             <Press />
+            <Offer />
         </>
     )
 }

@@ -3,7 +3,7 @@ import { Row, Col, Image, Container, Card, Button } from 'react-bootstrap'
 
 // Assets
 import img_manifiesto from '../../../assets/img/logos/manifiesto.png'
-import activism_2 from '../../../assets/img/activism-2.jpg'
+import activism_2 from '../../../assets/img/activism-2.png'
 import logo from '../../../assets/img/logos/logo-icon.png'
 
 // Styles
@@ -11,7 +11,7 @@ import '../../../styles/culturamenstrual/activism.styles.scss'
 
 const Activism = () => {
     return (
-        <Container fluid className='activism my-5 px-5'>
+        <Container fluid className='activism my-5 px-1 px-sm-2 px-md-3 px-lg-4 px-md-5'>
             <Row className='flex-column  m-0'>
                 <h2 className='title-section m-0 text-center'>Activismo</h2>
                 <p className='normal-text text-center mt-3'>Para nosotras, nuestro activismo  tiene una dedicación intensa que implica realizar acciones cotidianas y/o puntuales donde busquemos revertir creencias, mitos, tabús, violencias  y prejuicios de género sobre la experiencia menstrual y climatérica.</p>
@@ -58,7 +58,7 @@ const Activism = () => {
                 </Col>
                 
             </Row>
-            <Row className='d-flex flex-column flex-md-row justify-content-center align-items-center mt-4 m-0'>
+            <Row className='d-flex flex-column flex-md-row justify-content-center align-items-center mx-sm-5 mt-4 m-0'>
                 <Card className="activity rounded-0 border-0 m-0 m-sm-2 mb-3">
                     <Row className="no-gutters">
                         <Col md={6} className="activity-image d-flex justify-content-center px-4 pt-4 p-md-4">
@@ -89,7 +89,7 @@ const Activism = () => {
                         <Col md={6} className="d-flex align-items-center">
                             <div className="activity_info card-body d-flex flex-column justify-content-center">
                                 <h5 className="card-title text-center">Feminismos y Ciclo Menstrual</h5>
-                                <Button className='activity_button align-self-center rounded-0'>Quiero el documento</Button>
+                                <Button className='activity_button align-self-center rounded-0'>Ver documento</Button>
                             </div>
                         </Col>
                     </Row>
