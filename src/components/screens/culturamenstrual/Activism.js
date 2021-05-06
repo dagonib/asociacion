@@ -88,7 +88,7 @@ const Activism = () => {
                         </Col>
                         <Col md={6} className="d-flex align-items-center">
                             <div className="activity_info card-body d-flex flex-column justify-content-center">
-                                <h5 className="card-title text-center">Feminismos y Ciclo Menstrual</h5>
+                                <h5 className="card-title text-center">Activismo menstrual</h5>
                                 <Button className='activity_button align-self-center rounded-0'>Ver documento</Button>
                             </div>
                         </Col>

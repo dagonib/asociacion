@@ -31,6 +31,10 @@ const Press = () => {
                             href='https://www.vilaweb.cat/.../per-que-el-confinament-pot.../' 
                             target="_blank"
                         >Ir al Artículo</Button>
+                    </div>
+                    
+                    <div className='mb-4'>
+                        <h4>La pandemia ha alterado nuestro ciclo menstrual, pero también nos ha permitido parar</h4>
                         <p className='small-text mt-4'>Para María Victoria López Benito, una de las autoras del estudio, “es obvio, porque en el ciclo influyen muchísimo los niveles de estrés y aquel primer momento de confinamiento estricto era una situación desconocida que muchas mujeres vivieron de una manera muy agobiante”. En su opinión “eso se refleja en el ciclo que, al final, es una manifestación de nuestro estado de salud integral”.
                         </p>
                         <Button
