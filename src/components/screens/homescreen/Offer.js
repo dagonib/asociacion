@@ -5,7 +5,6 @@ import useWindowSize from '../../../utilities/useWindowSize'
 
 // Assets
 import img_offer from '../../../assets/img/offer.png'
-import img_offer_md from '../../../assets/img/img-offer-md.png'
 // Styles
 import '../../../styles/homescreen/offer.style.scss'
 
@@ -36,7 +35,7 @@ const Offer = () => {
                 {width > 767 ? (
                     <Image
                         className='purpose-image'
-                        src={img_offer_md}
+                        src={img_offer}
                     />
                 ) : (
                     <Image

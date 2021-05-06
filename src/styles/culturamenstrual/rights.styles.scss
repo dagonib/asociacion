@@ -1,0 +1,18 @@
+@import '../colors.scss';
+
+.accordion {
+    width: 100%;
+    background-color: $secondary;
+}
+
+.accordion .card {
+    background-color: initial!important;    
+    border: none;
+    color: #FFF;
+}
+
+.accordion .card-header {
+    border-bottom: 3px solid #FFF;
+    padding: 0.75em 1.25em 0.75em 0;
+    margin-left: 1.25em;
+}
