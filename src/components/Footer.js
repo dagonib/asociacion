@@ -19,7 +19,7 @@ const Footer = () => {
                         {/*<!-- Asociación de Cultura Menstrual -->*/} 
                         <Col md={4} className="text-center px-0">
                             <h4 className="title-section text-white m-0">Asociación de Cultura Menstrual</h4>
-                            <Navbar.Brand href="#home" className="text-white mt-2 py-0">
+                            <Navbar.Brand href="inicio" className="text-white mt-2 py-0">
                                 <Image 
                                     className='logo'
                                     alt='founder-1'
