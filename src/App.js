@@ -6,10 +6,12 @@ import HomeScreen from './screens/HomeScreen'
 import CulturaMenstrualScreen from './screens/CulturaMenstrualScreen'
 
 import './App.scss'
+import ScrollToTop from './utilities/ScrollToTop'
 
 const App = () => {
   return (
     <Router>
+        <ScrollToTop />
         <Navigation />
         <main>
             <Route path='/' component={HomeScreen} exact />
