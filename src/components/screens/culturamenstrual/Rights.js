@@ -2,7 +2,7 @@ import React from 'react'
 import { Container, Row, Col, Accordion, Card, Image } from 'react-bootstrap'
 
 // Assets
-import img_rights_sm from '../../../assets/img/rights-sm.jpg'
+import img_rights_sm from '../../../assets/img/rights-sm.png'
 
 // Styles
 import '../../../styles/culturamenstrual/rights.styles.scss'
