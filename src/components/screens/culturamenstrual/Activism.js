@@ -34,7 +34,7 @@ const Activism = () => {
                         src={logo}
                         width='25%'
                     />
-                    <p className='normal-text m-0'>Damos visibilidad y denunciamos los ataques machistas y patriarcales que reciben las compañeras divulgadoras y educadoras en sexualidad femenina, ciclo menstrual, maternidad, climaterio, etcétera.</p>
+                    <p className='normal-text m-0'>Damos visibilidad y denunciamos los ataques machistas y patriarcales que reciben las compañeras divulgadoras y educadoras en sexualidad femenina, ciclo menstrual, maternidad, climaterio.</p>
                 </Col>
                 
                 <Col className='d-flex flex-row align-items-center mb-3 p-0'>
