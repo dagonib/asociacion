@@ -24,7 +24,7 @@ const Encume = () => {
                         className='encume_button normal-text align-self-center rounded-0 mt-3'>EnCuMe</Button>
                 </Container>
             </Col>
-            <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='p-0'>
+            <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='d-flex justify-content-center p-0'>
                 <Container className='encume-backgroundtext'>
                     <Image 
                         className='mr-3'

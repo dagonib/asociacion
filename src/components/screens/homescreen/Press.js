@@ -7,7 +7,7 @@ const Press = () => {
 
     return (
         <Row className='press py-5 m-0'>
-            <Container fluid className='d-flex flex-column flex-md-row align-items-stretch'>
+            <Container fluid className='d-flex flex-column flex-md-row align-items-stretch px-3 px-sm-4'>
                 <Col md={4} className='d-flex flex-column align-items-start px-0 px-md-4 mb-2 m-0'>
                     <h1 className='title-section m-0'>En los medios</h1>
                     <p className='small-text'>Artículos que nos han publicado en la prensa escrita y digital.</p>
