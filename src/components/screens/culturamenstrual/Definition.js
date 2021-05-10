@@ -4,8 +4,8 @@ import { Row, Col, Image, Container } from 'react-bootstrap'
 import useWindowSize from '../../../utilities/useWindowSize'
 
 // Assets
-import img_purpose_md from '../../../assets/img/img-purpose-md.png'
-import img_purpose from '../../../assets/img/img-purpose.png'
+import img_definition_md from '../../../assets/img/definition-md.jpeg'
+import img_definition from '../../../assets/img/definition-sm.jpeg'
 // Styles
 import '../../../styles/culturamenstrual/definition.styles.scss'
 
@@ -18,12 +18,12 @@ const Definition = () => {
             {width > 767 ? (
                     <Image
                         className='purpose-image'
-                        src={img_purpose_md}
+                        src={img_definition_md}
                     />
                 ) : (
                     <Image
                         className='purpose-image'
-                        src={img_purpose}
+                        src={img_definition}
                     />
                 )}
             </Col> 
