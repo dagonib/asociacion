@@ -9,8 +9,8 @@ const CulturaMenstrualScreen = () => {
     return (
         <>
             <Definition />
-            <Activism />
-            <Encume />  
+            <Encume /> 
+            <Activism /> 
             <Research />
             <Rights />
         </>
