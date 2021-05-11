@@ -6,6 +6,7 @@ import useWindowSize from '../../../utilities/useWindowSize'
 // Assets
 import img_encume_sm from '../../../assets/img/encume-sm.png'
 import img_encume_md from '../../../assets/img/encume-md.png'
+import img_encume_lg from '../../../assets/img/encume-lg.png'
 import logo_encume from '../../../assets/img/logos/logo-blanco-global.png'
 
 // Styles
@@ -40,17 +41,22 @@ const Encume = () => {
                     />
                     <p className='normal-text px-0 px-sm-3 px-md-4 px-lg-5 mb-5 m-0'></p>
                 </Container>
-                {width > 767 ? (
-                    <Image
-                        className='encume-image'
-                        src={img_encume_md}
-                    />
-                ) : (
-                    <Image
-                        className='encume-image'
-                        src={img_encume_sm}
-                    />
-                )}
+                    { width > 974 ? (
+                        <Image
+                            className='encume-image'
+                            src={img_encume_lg}
+                        />
+                    ) : ( width > 767 ? (
+                        <Image
+                            className='encume-image'
+                            src={img_encume_md}
+                        />
+                    ) : (
+                        <Image
+                            className='encume-image'
+                            src={img_encume_sm}
+                        />
+                    ) )}
             </Col>
         </Row>
     )
