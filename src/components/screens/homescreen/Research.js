@@ -2,7 +2,7 @@ import React from 'react'
 import { Row, Col, Container, Button } from 'react-bootstrap'
 
 // Styles
-import '../../../styles/culturamenstrual/research.styles.scss'
+import '../../../styles/homescreen/research.styles.scss'
 
 const Research = () => {
     return (
