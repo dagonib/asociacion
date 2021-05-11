@@ -7,6 +7,7 @@ import useWindowSize from '../../../utilities/useWindowSize'
 import img_encume_sm from '../../../assets/img/encume-sm.png'
 import img_encume_md from '../../../assets/img/encume-md.png'
 import logo_encume from '../../../assets/img/logos/logo-blanco-global.png'
+
 // Styles
 import '../../../styles/encume/encume.styles.scss'
 
@@ -16,8 +17,7 @@ const Encume = () => {
     return (
         <Row className='encume d-flex flex-column flex-md-row align-items-stretch mx-0'>
             <Col xs={{ order: 'last' }} md={{ order: 'first' }} className='d-flex align-items-center py-5 px-0 px-sm-2 px-md-4 bg-secondary'>
-                <Container>
-                    
+                <Container>                   
                     <h2 className='title-section m-0 text-center text-white mb-3 m-0'>Evento anual</h2>
                     <p className='encume-text normal-text px-0 m-0'>Los Encuentros de Cultura Menstrual (EnCuMe) son un evento anual autogestionado donde buscamos recoger la necesidad individual y colectiva de compartir investigación, lenguaje, vivencias, y debatir sobre las políticas públicas, sanitarias y educativas que sobre el ciclo menstrual se aplican en el Estado Español. En estos encuentros proponemos un espacio compartido para reflexionar sobre los diversos temas socioculturales que condicionan la vida de las mujeres y personas menstruantes. 
                     </p>

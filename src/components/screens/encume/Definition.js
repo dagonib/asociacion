@@ -4,8 +4,10 @@ import { Row, Col, Image, Container } from 'react-bootstrap'
 import useWindowSize from '../../../utilities/useWindowSize'
 
 // Assets
+import img_definition_lg from '../../../assets/img/definition-lg.jpeg'
 import img_definition_md from '../../../assets/img/definition-md.jpeg'
 import img_definition from '../../../assets/img/definition-sm.jpeg'
+
 // Styles
 import '../../../styles/encume/definition.styles.scss'
 
@@ -15,17 +17,22 @@ const Definition = () => {
     return (
         <Row className='definition d-flex flex-column flex-md-row bg-primary mx-0 mb-0' id='definition'>      
             <Col className='p-0'> 
-            {width > 767 ? (
+             { width > 992 ? (
+                    <Image
+                        className='purpose-image'
+                        src={img_definition_lg}
+                    />
+                ) : ( width > 767 ? (
                     <Image
                         className='purpose-image'
                         src={img_definition_md}
                     />
-                ) : (
-                    <Image
-                        className='purpose-image'
-                        src={img_definition}
-                    />
-                )}
+                    ) : (
+                        <Image
+                            className='purpose-image'
+                            src={img_definition}
+                        />
+                    ) )}
             </Col> 
             <Col className='d-flex align-items-center py-5 px-3 px-md-4 px-lg-5 bg-secondary'>
                 <Container className='p-0'>
