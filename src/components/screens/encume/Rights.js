@@ -18,8 +18,9 @@ const Rights = () => {
                 <Row className='d-flex flex-column-reverse m-0'>
                     <Col className='d-flex flex-column px-3 px-0'>
                         <Row className='d-flex justify-content-center mx-0'>
-                            <h2 className='title-section  m-0 text-center'>Derechos</h2>
-                            <p className='normal-text  text-center mx-0 mx-sm-2 mt-3'>Hay una serie de derechos humanos universalmente aceptados que pueden ser socavados por el tratamiento que se presta a mujeres y niñas durante la menstruación. Estos son, entre otros:</p>
+                            <h2 className='title-section  m-0 text-center'>Cultura Menstrual y Derechos</h2>
+                            <p className='normal-text  text-center mx-0 mx-sm-2 mt-3'>Apostamos por la toma de consciencia individual en cuanto a la vivencia de los procesos fisiológicos propios y naturales asociados con el ciclo menstrual y la sexualidad femenina, pero estos también deben estar respaldados en el marco de los derechos. </p>
+                            <p className='normal-text  text-center mx-0 mx-sm-2 mt-3'>Por ello, queremos destacar de qué manera algunos de los derechos humanos universalmente aceptados pueden ser socavados por las connotaciones culturales asociadas a la menstruación. Estos son, entre otros:</p>
                         </Row>
                         <Row className='d-flex justify-content-center mx-0 mx-sm-2'> 
                             <Accordion className='accordion d-flex flex-column flex-md-row'>
@@ -34,7 +35,7 @@ const Rights = () => {
                                         </Accordion.Collapse>
                                     </Card>
                                     <Card className='card normal-text'>
-                                        <Accordion.Toggle as={Card.Header} eventKey="0" className='card-header d-flex justify-content-between align-items-center pl-3'>
+                                        <Accordion.Toggle as={Card.Header} eventKey="1" className='card-header d-flex justify-content-between align-items-center pl-3'>
                                             <p className='p-0 m-0'>El derecho a un nivel adecuado de salud y bienestar</p>
                                             <FaAngleDown size={24} />
                                         </Accordion.Toggle>
@@ -43,7 +44,7 @@ const Rights = () => {
                                         </Accordion.Collapse>
                                     </Card>
                                     <Card className='card normal-text'>
-                                        <Accordion.Toggle as={Card.Header} eventKey="0" className='card-header d-flex justify-content-between align-items-center pl-3'>
+                                        <Accordion.Toggle as={Card.Header} eventKey="2" className='card-header d-flex justify-content-between align-items-center pl-3'>
                                             <p className='p-0 m-0'>El derecho a la educación</p>
                                             <FaAngleDown size={24} />
                                         </Accordion.Toggle>
@@ -54,7 +55,7 @@ const Rights = () => {
                                 </Col>
                                 <Col>
                                     <Card className='card normal-text'>
-                                        <Accordion.Toggle as={Card.Header} eventKey="0" className='card-header d-flex justify-content-between align-items-center pl-3'>
+                                        <Accordion.Toggle as={Card.Header} eventKey="3" className='card-header d-flex justify-content-between align-items-center pl-3'>
                                             <p className='p-0 m-0'>El derecho al trabajo</p>
                                             <FaAngleDown size={24} />
                                         </Accordion.Toggle>
@@ -63,7 +64,7 @@ const Rights = () => {
                                         </Accordion.Collapse>
                                     </Card>
                                     <Card className='card normal-text'>
-                                        <Accordion.Toggle as={Card.Header} eventKey="0" className='card-header d-flex justify-content-between align-items-center pl-3'>
+                                        <Accordion.Toggle as={Card.Header} eventKey="4" className='card-header d-flex justify-content-between align-items-center pl-3'>
                                             <p className='p-0 m-0'>El derecho a la no discriminación y la igualdad de género</p>
                                             <FaAngleDown size={24} />
                                         </Accordion.Toggle>

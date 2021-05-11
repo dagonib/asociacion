@@ -14,7 +14,7 @@ const Activism = () => {
         <Container fluid className='activism my-5 px-1 px-sm-2 px-md-3 px-lg-4 px-md-5'>
             <Row className='flex-column  m-0'>
                 <h2 className='title-section m-0 text-center'>Activismo</h2>
-                <p className='normal-text text-center mt-3'>Para nosotras, nuestro activismo  tiene una dedicación intensa que implica realizar acciones cotidianas y/o puntuales donde busquemos revertir creencias, mitos, tabús, violencias  y prejuicios de género sobre la experiencia menstrual y climatérica.</p>
+                <p className='normal-text text-center mt-3'>Para nosotras, nuestro activismo tiene una dedicación intensa que implica realizar acciones cotidianas o puntuales donde buscamos revertir creencias, mitos, tabúes, estigmas, violencias y prejuicios de género sobre la experiencia menstrual y climatérica.</p>
             </Row>
             <Row className='activism d-flex flex-column ml-4 ml-md-5 mt-1 px-0 pb-0  m-0 '>
                 <Col className='d-flex flex-row align-items-center mb-3 p-0'>
@@ -24,7 +24,17 @@ const Activism = () => {
                         src={logo}
                         width='25%'
                     />
-                    <p className='normal-text m-0'>Buscamos identificar la pobreza menstrual que afecta a  las personas con bajo poder adquisitivo. Esta se ve reflejada a la hora de no poder adquirir productos de recogida del sangrado menstrual.</p>
+                    <p className='normal-text m-0'>Queremos poner el ciclo menstrual en los diálogos cotidianos y en la agenda política y social ya que la menstruación es aún el gran secreto a voces en la vida de las niñas, mujeres y personas que menstrúan.</p>
+                </Col>
+                
+                <Col className='d-flex flex-row align-items-center mb-3 p-0'>
+                    <Image 
+                        className='logo mr-3'
+                        alt='founder-1'
+                        src={logo}
+                        width='25%'
+                    />
+                    <p className='normal-text m-0'>Buscamos identificar la pobreza menstrual que afecta a las personas con bajo poder adquisitivo. Esta se ve reflejada a la hora de no poder adquirir productos de recogida del sangrado menstrual.</p>
                 </Col>
                 
                 <Col className='d-flex flex-row align-items-center mb-3 p-0'>
@@ -44,17 +54,7 @@ const Activism = () => {
                         src={logo}
                         width='25%'
                     />
-                    <p className='normal-text m-0'>La menstruación es aún el gran secreto a voces en la vida de las niñas, mujeres y personas que menstrúan. Buscamos poner el ciclo menstrual en los diálogos cotidianos y en la agenda política y social.</p>
-                </Col>
-                
-                <Col className='d-flex flex-row align-items-center mb-3 p-0'>
-                    <Image 
-                        className='logo mr-3'
-                        alt='founder-1'
-                        src={logo}
-                        width='25%'
-                    />
-                    <p className='normal-text m-0'>Somos altavoces de las entidades y colectivos de afectadas por endometriosis o el dispositivo Essure, entre otras violencias farmacéuticas o médicas relacionadas con la salud sexual y reproductiva.</p>
+                    <p className='normal-text m-0'>Somos altavoces de las entidades y colectivos de afectadas por endometriosis, el dispositivo Essure, entre otras violencias farmacéuticas o médicas relacionadas con la salud sexual y reproductiva.</p>
                 </Col>
                 
             </Row>
