@@ -3,7 +3,7 @@ import { Container, Row } from 'react-bootstrap'
 import { motion } from 'framer-motion'
 
 import '../../../styles/homescreen/header.styles.scss'
-import '../../../styles/text.scss'
+import '../../../styles/commons/text.scss'
 
 const titlevariant = {
     hidden: {

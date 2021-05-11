@@ -5,7 +5,7 @@ import { Container, Row, Col, Accordion, Card, Image } from 'react-bootstrap'
 import img_rights_sm from '../../../assets/img/rights-sm.png'
 
 // Styles
-import '../../../styles/culturamenstrual/rights.styles.scss'
+import '../../../styles/encume/rights.styles.scss'
 
 const Rights = () => {
  

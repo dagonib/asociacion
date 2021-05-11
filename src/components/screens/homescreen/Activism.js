@@ -7,7 +7,7 @@ import activism_2 from '../../../assets/img/activism-2.png'
 import logo from '../../../assets/img/logos/logo-icon.png'
 
 // Styles
-import '../../../styles/culturamenstrual/activism.styles.scss'
+import '../../../styles/homescreen/activism.styles.scss'
 
 const Activism = () => {
     return (

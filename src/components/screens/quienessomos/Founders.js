@@ -9,7 +9,7 @@ import img_vicotoria from '../../../assets/img/founders/victoria.jpeg'
 import { FaFacebook, FaInstagramSquare, FaDribbble, FaTwitter } from "react-icons/fa";
 
 // Styles
-import '../../../styles/homescreen/founders.styles.scss'
+import '../../../styles/quienessomos/founders.styles.scss'
 
 const Founders = () => {
 

@@ -3,7 +3,8 @@ import { BrowserRouter as Router, Route } from 'react-router-dom'
 import Footer from './components/Footer'
 import Navigation from './components/Navigation'
 import HomeScreen from './screens/HomeScreen'
-import CulturaMenstrualScreen from './screens/CulturaMenstrualScreen'
+import Encume from './screens/Encume'
+import QuienesSomos from './screens/QuienesSomos'
 
 import './App.scss'
 import ScrollToTop from './utilities/ScrollToTop'
@@ -16,7 +17,8 @@ const App = () => {
         <main>
             <Route path='/' component={HomeScreen} exact />
             <Route path='/inicio' component={HomeScreen} />
-            <Route path='/culturamenstrual' component={CulturaMenstrualScreen} />
+            <Route path='/encume' component={Encume} />
+            <Route path='/quienessomos' component={QuienesSomos} />
         </main>
         <Footer />
     </Router>

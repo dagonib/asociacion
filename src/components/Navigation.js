@@ -17,7 +17,7 @@ const Navigation = () => {
     useEffect(() => {
         if(location.pathname === '/' || location.pathname  === '/inicio') {
             setBackground('')
-        } else if (location.pathname  === '/culturamenstrual' || location.pathname  === '/contacto' ) {
+        } else if (location.pathname  === '/encume' || location.pathname  === '/quienessomos' ) {
             setBackground('dark')
         }
     }, [location])
@@ -43,8 +43,11 @@ const Navigation = () => {
                             <LinkContainer to='/inicio'>
                                 <Nav.Link className="text-white mt-3 mt-md-0 py-0">Inicio</Nav.Link>
                             </LinkContainer>
-                            <LinkContainer to='/culturamenstrual'>
-                                <Nav.Link className="text-white mt-3 mt-md-0 py-0">Cultura Menstrual</Nav.Link>
+                            <LinkContainer to='/encume'>
+                                <Nav.Link className="text-white mt-3 mt-md-0 py-0">EnCuMe</Nav.Link>
+                            </LinkContainer>
+                            <LinkContainer to='/quienessomos'>
+                                <Nav.Link className="text-white mt-3 mt-md-0 py-0">Quienes Somos</Nav.Link>
                             </LinkContainer>
                             <RRSS align='d-flex justify-content-end text-white ml-2 mt-3 mt-md-0 m-0' size='16' />
                         </Nav>

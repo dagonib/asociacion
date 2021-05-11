@@ -8,14 +8,14 @@ import img_offer from '../../../assets/img/offer.png'
 import img_offer_md from '../../../assets/img/offer-md.png'
 import img_offer_lg from '../../../assets/img/offer-lg.png'
 // Styles
-import '../../../styles/homescreen/offer.style.scss'
+import '../../../styles/encume/offer.style.scss'
 
 const Offer = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='offer d-flex flex-column flex-md-row align-items-stretch pt-5 m-0'>
-            <Col xs={{ order: 'last' }} md={{ order: 'first' }} className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
+        <Row className='offer d-flex flex-column flex-md-row align-items-stretch py-5 m-0'>
+            <Col xs={{ order: 'last' }} md={{ span: 9, order: 'first' }} className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
                 <Container className='py-3 p-0'>
                     <h1 className='title-section m-0 text-center text-white mb-3'>Ofrecemos</h1>
                     <p className='offer-text small-text font-italic mt-2 px-0 m-0'>"La menstruación refleja la armonía de la diferencia y se manifiesta de forma equilibrada si el entorno es también armónico. De hecho, las condiciones de vida y trabajo influyen de modo directo en dicha armonía y en sus trastornos posteriores."</p>
@@ -29,7 +29,7 @@ const Offer = () => {
                     <p className='offer-text small-text mt-2 px-0 m-0'>Dinos si trabajas en algún ámbito de la Cultura Menstrual (salud, higiene, arte o educación) y dónde resides. </p>
                 </Container>
             </Col>
-            <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='p-0 align-items-center justify-content-center'>
+            <Col xs={{ order: 'first' }} md={{ span: 3, order: 'last' }} className='p-0 align-items-center justify-content-center'>
                 
                 { width > 767 ? (
                     <Image
