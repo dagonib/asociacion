@@ -6,8 +6,8 @@ import '../../../styles/homescreen/research.styles.scss'
 
 const Research = () => {
     return (
-        <Row className='research my-5 m-0'>
-            <Container className='container p-5'>
+        <Row className='research mt-5 m-0'>
+            <Container className='container'>
                 <Row className='d-flex flex-column m-0'>
                     <h2 className='title-section m-0 text-center m-0'>Investigación</h2>
                 </Row>
@@ -16,7 +16,7 @@ const Research = () => {
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
                     <Col className='mr-md-2'>
-                        <p className='text-justify normal-text'>El confinamiento total que vivimos todas las personas durante el año 2020 lo hemos vivido de infinidad de maneras distintas. Pero hay peculiaridades concretas y comunes a todas las menstruantes, que nos llevaron a sacar algunas conclusiones importantes.</p>
+                        <p className='text-justify normal-text'>El confinamiento total que vivimos todas las personas durante el año 2020 lo hemos vivido de infinidad de maneras distintas. Pero hay peculiaridades concretas y comunes asociadas al proceso de la menstruación, que nos llevaron a sacar algunas conclusiones importantes.</p>
                     </Col>
                     <Col className='ml-md-2'>
                         <p className='text-justify normal-text'>La salud menstrual es un reto en los diversos contextos de crisis sanitaria, económica, climática y comunitaria, y por ende, es necesario estudiarla ante situaciones excepcionales de falta de condiciones para el buen funcionamiento de las hormonas sexuales femeninas.</p>
@@ -42,11 +42,11 @@ const Research = () => {
                     </Col>
                 </Row>
                 <Row className='d-flex flex-column'>
-                    <p className='text-center normal-text'>Puedes leer el artículo con los primeros resultados aquí: </p>
+                    <p className='text-center normal-text'>Puedes leer el artículo con los primeros resultados a partir del 1 de junio 2021. </p>
                     <Button 
                         href='https://matriz.net/mys4849/img/mys49-especial-covid.pdf' 
                         target="_blank"
-                        className='activity_button align-self-center rounded-0'
+                        className='d-none activity_button align-self-center rounded-0'
                     >Leer Artículo</Button>
                 </Row>
             </Container>

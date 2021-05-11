@@ -30,7 +30,9 @@ const Purpose = () => {
             <Col className='d-flex align-items-center py-5 px-3 px-md-4 px-lg-5 bg-secondary'>
                 <Container className='p-0'>
                     <h1 className='title-section m-0 text-center text-white mb-3'>La Asociación</h1>
-                    <p className='purpose-text normal-text px-0 m-0'>La Asociación busca divulgar conocimientos sobre el ciclo menstrual y el climaterio para la deconstrucción de los tabúes, prejuicios y supersticiones que a días de hoy persisten en la educación y cultura occidental. Para ello, elabora documentos de educación menstrual, coordina eventos, participa de activismos y campañas por la justicia y dignidad menstrual, y teje redes entre profesionales dedicadas a la cultural menstrual, tanto en el ámbito Estatal e hispanoparlante.</p>
+                    <p className='purpose-text normal-text px-0 m-0'>Desde la Asociación de Cultura Menstrual, La Vida en Rojo, buscamos divulgar conocimientos sobre el ciclo menstrual y el climaterio para que las niñas, las mujeres y personas que transitan estas etapas, podamos desarrollar todo nuestro potencial con información y recursos.</p>
+                    <p className='purpose-text normal-text px-0 m-0'>Para ello, elaboramos documentos e investigamos sobre educación y salud del ciclo menstrual y el climaterio, coordinamos eventos, realizamos activismo y campañas por la justicia y dignidad menstrual. </p>
+                    <p className='purpose-text normal-text px-0 m-0'>También tenemos la voluntad de crear redes entre profesionales dedicadas a la Cultura menstrual, tanto en el ámbito del Estado español como de América Latina.</p>
                 </Container>
             </Col>
         </Row>

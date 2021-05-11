@@ -60,8 +60,11 @@ const Footer = () => {
                                 <LinkContainer to='/inicio'>
                                     <Nav.Link className='text-white p-0'>Inicio</Nav.Link>
                                 </LinkContainer>
-                                <LinkContainer to='/culturamenstrual'>
-                                    <Nav.Link className='text-white p-0'>Cultura Menstrual</Nav.Link>
+                                <LinkContainer to='/encume'>
+                                    <Nav.Link className='text-white p-0'>EnCuMe</Nav.Link>
+                                </LinkContainer>
+                                <LinkContainer to='/quienessomos'>
+                                    <Nav.Link className='text-white p-0'>Quienes Somos</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                         </Col>

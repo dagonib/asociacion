@@ -36,8 +36,8 @@ const Definition = () => {
             </Col> 
             <Col className='d-flex align-items-center py-5 px-3 px-md-4 px-lg-5 bg-secondary'>
                 <Container className='p-0'>
-                    <p className='definition-text normal-text m-0'>La nueva Cultura Menstrual engloba el investigar, analizar, debatir y finalmente, divulgar sobre todo aquello que cambie la perspectiva negativa, sucia o patológica sobre el hecho biológico de ovular y menstruar que atraviesa la mitad de la población mundial.</p>
-                    <p className='definition-text normal-text m-0'>La praxis de la nueva Cultura Menstrual la hacemos desde el activismo a través de la promoción de la educación menstrual y cíclica, de la promoción de la  salud hormonal, del reconocimiento de la anatomía de los órganos pélvicos femeninos y la anatomía genital, de campañas por la justicia y la dignidad menstrual, de la recomendación de productos para la recogida del sangrado que sean saludables y sostenibles, de la investigación y del arte entre otras prácticas.</p>
+                    <p className='definition-text normal-text m-0'>La nueva Cultura menstrual engloba el investigar, analizar, debatir y finalmente, divulgar sobre todo aquello que cambie la perspectiva negativa o patológica sobre el hecho biológico de ovular y menstruar que atraviesa la mitad de la población mundial.</p>
+                    <p className='definition-text normal-text m-0'>La praxis de la nueva Cultura menstrual la hacemos desde el activismo con la promoción de la educación menstrual y cíclica, de la promoción de la salud hormonal, del reconocimiento de la anatomía de los órganos sexuales femeninos y de la recomendación de productos de recogida del sangrado saludables y sostenibles.</p>
                 </Container>
             </Col>
         </Row>
