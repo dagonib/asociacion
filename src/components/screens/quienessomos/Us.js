@@ -8,13 +8,14 @@ import '../../../styles/quienessomos/us.styles.scss'
 // Assets
 import img_us from '../../../assets/img/us.jpg'
 import img_us_sm from '../../../assets/img/us-sm.jpg'
-import img_us_md from '../../../assets/img/us-md.jpg'
+import img_us_md from '../../../assets/img/us-md.jpeg'
+import img_us_lg from '../../../assets/img/us-lg.jpeg'
 
 const Us = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='us d-flex flex-column align-items-stretch mx-0'>
+        <Row className='us d-flex flex-column flex-md-row-reverse align-items-stretch mb-5'>
             <Col xs={{ order: 'last' }} className='d-flex align-items-center py-5 px-0 px-sm-2 px-md-4 bg-secondary'>
                 <Container>                   
                     <h2 className='title-section m-0 text-center text-white mb-3 m-0'>Quienes somos</h2>
@@ -27,22 +28,29 @@ const Us = () => {
                 </Container>
             </Col>
             <Col xs={{ order: 'first' }} className='d-flex justify-content-center p-0'>
-                { width > 768 ? (
+                { width > 900 ? (
+                    <Image
+                        className='purpose-image'
+                        src={img_us_lg}
+                    />
+                ) : ( width > 768 ? (
                     <Image
                         className='purpose-image'
                         src={img_us_md}
                     />
-                ) : ( width > 567 ? (
-                    <Image
-                        className='purpose-image'
-                        src={img_us_sm}
-                    />
-                    ) : (
+                    ) : ( width > 567 ? (
                         <Image
                             className='purpose-image'
-                            src={img_us}
+                            src={img_us_sm}
                         />
-                    ) )}
+                        ) : (
+                            <Image
+                                className='purpose-image'
+                                src={img_us}
+                            />
+                        )
+                    ) 
+                )}
             </Col>
         </Row>
     )

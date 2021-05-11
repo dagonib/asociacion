@@ -15,7 +15,7 @@ const Definition = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='definition d-flex flex-column flex-md-row bg-primary mx-0 mb-0' id='definition'>      
+        <Row className='definition d-flex flex-column flex-md-row bg-primary my-5 mx-0 mb-0' id='definition'>      
             <Col className='p-0'> 
              { width > 992 ? (
                     <Image
