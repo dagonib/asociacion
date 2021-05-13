@@ -15,29 +15,29 @@ const Definition = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='definition d-flex flex-column flex-md-row bg-primary mx-0 mb-0' id='definition'>      
-            <Col className='p-0'> 
+        <Row className='definition d-flex flex-column flex-md-row px-0 mx-0 mb-5 p-md-5'>      
+            <Col className='imgbox d-flex align-self-center p-0 pr-md-4'> 
              { width > 992 ? (
                     <Image
-                        className='purpose-image'
+                        fluid
                         src={img_definition_lg}
                     />
                 ) : ( width > 767 ? (
                     <Image
-                        className='purpose-image'
+                        fluid
                         src={img_definition_md}
                     />
                     ) : (
                         <Image
-                            className='purpose-image'
+                            fluid
                             src={img_definition}
                         />
                     ) )}
             </Col> 
-            <Col className='d-flex align-items-center py-5 px-3 px-md-4 px-lg-5 bg-secondary'>
+            <Col className='textbox d-flex align-self-center px-4 py-5 pr-md-0 pl-md-4 py-md-0'>
                 <Container className='p-0'>
-                    <p className='definition-text normal-text m-0'>La nueva Cultura menstrual engloba el investigar, analizar, debatir y finalmente, divulgar sobre todo aquello que cambie la perspectiva negativa o patológica sobre el hecho biológico de ovular y menstruar que atraviesa la mitad de la población mundial.</p>
-                    <p className='definition-text normal-text m-0'>La praxis de la nueva Cultura menstrual la hacemos desde el activismo con la promoción de la educación menstrual y cíclica, de la promoción de la salud hormonal, del reconocimiento de la anatomía de los órganos sexuales femeninos y de la recomendación de productos de recogida del sangrado saludables y sostenibles.</p>
+                    <p className='normal-text text-justify px-0 m-0'>La nueva Cultura menstrual engloba el investigar, analizar, debatir y finalmente, divulgar sobre todo aquello que cambie la perspectiva negativa o patológica sobre el hecho biológico de ovular y menstruar que atraviesa la mitad de la población mundial.</p>
+                    <p className='normal-text text-justify px-0 m-0'>La praxis de la nueva Cultura menstrual la hacemos desde el activismo con la promoción de la educación menstrual y cíclica, de la promoción de la salud hormonal, del reconocimiento de la anatomía de los órganos sexuales femeninos y de la recomendación de productos de recogida del sangrado saludables y sostenibles.</p>
                 </Container>
             </Col>
         </Row>

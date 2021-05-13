@@ -14,11 +14,11 @@ const Offer = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='offer d-flex flex-column flex-md-row align-items-stretch m-0'>
-            <Col xs={{ order: 'last' }} md={{ span: 8, order: 'first' }} className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
+        <Row className='offer d-flex flex-column-reverse flex-md-row px-0 mx-0 mb-5 p-md-5'>
+            <Col className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
                 <Container className='py-3 p-0'>
                     <h1 className='title-section m-0 text-center text-white mb-3'>Ofrecemos</h1>
-                    <p className='offer-text normal-text font-italic mt-2 px-0 m-0'>"La menstruación refleja la armonía de la diferencia y se manifiesta de forma equilibrada si el entorno es también armónico. De hecho, las condiciones de vida y trabajo influyen de modo directo en dicha armonía y en sus trastornos posteriores."</p>
+                    <p className='offer-text offer-quote normal-text font-italic mt-2 px-0 m-0'>"La menstruación refleja la armonía de la diferencia y se manifiesta de forma equilibrada si el entorno es también armónico. De hecho, las condiciones de vida y trabajo influyen de modo directo en dicha armonía y en sus trastornos posteriores."</p>
                     
                     <p className='offer-text-small small-text text-right mt-2 px-0 m-0'>Dra. Carme Valls-Llobet ponente del 1er Encuentro de Cultura Menstrual (EnCuMe) Barcelona, 2019.</p>
                     
@@ -29,17 +29,17 @@ const Offer = () => {
                     <p className='offer-text small-text mt-2 px-0 m-0'>Dinos si trabajas en algún ámbito de la Cultura Menstrual (salud, higiene, arte o educación) y dónde resides.</p>
                 </Container>
             </Col>
-            <Col xs={{ order: 'first' }} md={{ span: 4, order: 'last' }} className='p-0 align-items-center justify-content-center'>
+            <Col className='imgbox d-flex align-self-center p-0 pl-md-4'>
                 
                 { width > 1056 ? (
                     <Image
                         className='purpose-image'
-                        src={img_offer_lg}
+                        src={img_offer}
                     />
                 ) : ( width > 767 ? (
                     <Image
                         className='purpose-image'
-                        src={img_offer_md}
+                        src={img_offer}
                     />
                     ) : (
                         <Image
