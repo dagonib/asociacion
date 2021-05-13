@@ -1,50 +1,11 @@
+@import '../commons/text.scss';
+
 .encume {
     margin-top: 80px!important;
 }
 
-.encume-image {
-    width: 100%;
-    background-size: cover;
-    background-position: top right;
-    background-repeat: no-repeat;
-    position: relative;
-    z-index: 10;
-}
-
-.encume-text {
-    text-align: justify;
-    color: #fff;
-}
-
-.encume-backgroundtext {
-    color: black;
-    position: absolute;
-    top: 0;
-    z-index: 100;    
-    text-align: center;
-    height: 100%;
-
-    p {
-        font-size: 1rem!important;
-        color: #fff;
-
-        @media only screen and (min-width: 576px) {
-            font-size: 1.1rem!important;
-        }
-
-        @media only screen and (min-width: 768px) {
-            font-size: 1.3rem!important;
-        }
-
-        @media only screen and (min-width: 992px) {
-            font-size: 1.4rem!important;
-        }
-
-        @media only screen and (min-width: 1200px) {
-            font-size: 1.5rem!important;
-            line-height: 2.1!important;
-        }
-    }
+.encume_logo {
+    width: 60%!important;
 }
 
 .encume_button {

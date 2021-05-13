@@ -1,10 +1,6 @@
 @import '../commons/colors.scss';
 
 .offer {
-
-}
-
-.offer-content {
     background-color: $grey-dark;
 }
 
@@ -14,6 +10,15 @@
 
     @media only screen and (min-width: 992px) {
         font-size: 1.1rem!important;
+    }
+}
+
+.offer-quote {
+    line-height: 1.2!important;
+    text-align: center;
+    
+    @media only screen and (min-width: 1200px) {
+        line-height: 1.2!important;
     }
 }
 
