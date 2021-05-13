@@ -14,7 +14,7 @@ const Offer = () => {
     const { width }  = useWindowSize()
 
     return (
-        <Row className='offer d-flex flex-column flex-md-row align-items-stretch py-5 m-0'>
+        <Row className='offer d-flex flex-column flex-md-row align-items-stretch m-0'>
             <Col xs={{ order: 'last' }} md={{ span: 8, order: 'first' }} className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
                 <Container className='py-3 p-0'>
                     <h1 className='title-section m-0 text-center text-white mb-3'>Ofrecemos</h1>
