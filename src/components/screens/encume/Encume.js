@@ -25,7 +25,7 @@ const Encume = () => {
                     <Button 
                         href='http://www.encuentroculturamenstrual.es/'
                         target='_blank'
-                        className='encume_button normal-text align-self-center rounded-0 mt-3'>EnCuMe</Button>
+                        className='encume_button normal-text align-self-center rounded-0 mt-3'>EnCuMe 2021</Button>
                 </Container>
             </Col>
             <Col xs={{ order: 'first' }} md={{ order: 'last' }} className='d-flex justify-content-center p-0'>
@@ -38,12 +38,12 @@ const Encume = () => {
                     />
                     <p className='normal-text px-0 px-sm-3 px-md-4 px-lg-5 mb-5 m-0'></p>
                 </Container>
-                    { width > 974 ? (
+                    { width < 767 ? (
                         <Image
                             className='encume-image'
-                            src={img_encume_lg}
+                            src={img_encume_sm}
                         />
-                    ) : ( width > 767 ? (
+                    ) : ( width < 974 ? (
                         <Image
                             className='encume-image'
                             src={img_encume_md}
@@ -51,7 +51,7 @@ const Encume = () => {
                     ) : (
                         <Image
                             className='encume-image'
-                            src={img_encume_sm}
+                            src={img_encume_lg}
                         />
                     ) )}
             </Col>
