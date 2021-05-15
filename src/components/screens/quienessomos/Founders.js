@@ -1,9 +1,12 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Row, Col, Image, Container, Nav, Card } from 'react-bootstrap'
+
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 import img_analuisa from '../../../assets/img/founders/ana-luisa.jpg'
 import img_carolina from '../../../assets/img/founders/carolina.png'
-import img_vicotoria from '../../../assets/img/founders/victoria.jpeg'
+import img_vicotoria from '../../../assets/img/founders/victoria.png'
 
 // Iconos
 import { FaFacebook, FaInstagramSquare, FaDribbble, FaTwitter } from "react-icons/fa";
@@ -12,6 +15,9 @@ import { FaFacebook, FaInstagramSquare, FaDribbble, FaTwitter } from "react-icon
 import '../../../styles/quienessomos/founders.styles.scss'
 
 const Founders = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
 
     return (
         <Container fluid className='founders mt-5 pb-5'>
@@ -19,7 +25,9 @@ const Founders = () => {
                 <h1 className='title-section m-0'>Fundadoras</h1>
             </Row>
             <Row className='m-0'>
-                <Col lg={4} className='p-2'>
+                <Col
+                    data-aos="fade-right" 
+                    lg={4} className='p-2'>
                     <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start px-3 py-5'>
                         <div className='d-flex justify-content-center px-0'>                           
                             <Image 
@@ -61,7 +69,9 @@ const Founders = () => {
                     </div>
                 </Col>
                 
-                <Col lg={4} className='p-2'>
+                <Col 
+                    data-aos="fade-left" 
+                    lg={4} className='p-2'>
                     <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start px-3 py-5'>
                         <div className='d-flex justify-content-center px-0'>
                             <Image 
@@ -110,7 +120,9 @@ const Founders = () => {
                     </div>
                 </Col>
 
-                <Col lg={4} className='p-2'>
+                <Col 
+                    data-aos="fade-right" 
+                    lg={4} className='p-2'>
                     <div className='founder d-flex flex-column flex-sm-row flex-lg-column align-items-center align-items-sm-start px-3 py-5'>
                         <div className='d-flex justify-content-center px-0'>
                             <Image 

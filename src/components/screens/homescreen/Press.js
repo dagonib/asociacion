@@ -29,7 +29,7 @@ const Press = () => {
                             "Amb la vista posada en aquest futur immediat, i més enllà dels processos fisiològics propis que determinen el cicle menstrual, les activistes també alerten que la crisi econòmica derivada de la crisi sanitària tindrà més conseqüències en la relació de les dones amb la seva menstruació. ‘Detectem una deriva socioeconòmica que, possiblement, assentarà el concepte de “pobresa menstrual” tant al nostre país com en països on no s’havia considerat que aquest concepte pogués ser reconegut, atès que en l’imaginari col·lectiu es percep com un fet que passa a països del tercer món i no a països desenvolupats’, explica Ackermann".
                             </p>
                             <Button
-                                href='https://www.vilaweb.cat/.../per-que-el-confinament-pot.../' 
+                                href='https://www.vilaweb.cat/noticies/per-que-el-confinament-pot-haver-alterat-el-cicle-menstrual/' 
                                 target="_blank"
                             >Ir al Artículo</Button>
                         </div>
@@ -44,7 +44,7 @@ const Press = () => {
                             >Ir al Artículo</Button>
                         </div>
                         <div>
-                            <h4>Visibilizar el climaterio</h4>
+                            <h4>Visibilitzar el climateri</h4>
                             <p className='normal-text'>El 28 d’abril ha estat declarat Dia internacional d’acció per la salut de les dones. Coincidint amb aquesta data, l’autora d’aquest article, fundadora de l’Associació de Cultura Menstrual La Vida en Rojo, vindica el període de reajustament hormonal en les dones que es produeix abans, durant i després de la menopausa, conegut com el ‘climateri’, que defineix com un “meravellós instant físic i simbòlic” que ben poc té a veure amb el tòpic estigmatitzador dels “ovaris envellits”. Reclama, alhora, un acompanyament sanitari des de la confiança i la seguretat per preparar aquesta etapa vital.
                             </p>
                             <Button

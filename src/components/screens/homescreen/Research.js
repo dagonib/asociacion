@@ -1,20 +1,31 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Row, Col, Container, Button } from 'react-bootstrap'
+import Aos from 'aos'
+import "aos/dist/aos.css"
 
 // Styles
 import '../../../styles/homescreen/research.styles.scss'
 
 const Research = () => {
+    useEffect(() => {
+        Aos.init({duration: 2000})
+    }, [])
+
     return (
-        <Row className='research mt-5 m-0'>
-            <Container className='container'>
+        <Row className='research overflow mt-5 m-0'>
+            <Container 
+                    data-aos="fade-right"
+                    className='container'>
                 <Row className='d-flex flex-column m-0'>
-                    <h2 className='title-section m-0 text-center m-0'>Investigación</h2>
+                    <h2 
+                    className='title-section m-0 text-center m-0'>Investigación</h2>
                 </Row>
-                <Row className='d-flex flex-column mt-4 m-0'>
+                <Row 
+                    className='d-flex flex-column mt-4 m-0'>
                     <p className='font-weight-bold normal-text'>Alteraciones del ciclo menstrual y confinamiento</p>
                 </Row>
-                <Row  className='d-flex flex-column flex-md-row'>
+                <Row  
+                    className='d-flex flex-column flex-md-row'>
                     <Col className='mr-md-2'>
                         <p className='text-justify normal-text'>El confinamiento total que vivimos todas las personas durante el año 2020 lo hemos vivido de infinidad de maneras distintas. Pero hay peculiaridades concretas y comunes asociadas al proceso de la menstruación, que nos llevaron a sacar algunas conclusiones importantes.</p>
                     </Col>
@@ -31,7 +42,7 @@ const Research = () => {
                     >Leer Artículo</Button>
                 </Row>
                 <Row className='d-flex flex-column mt-5 m-0'>
-                    <p className='font-weight-bold normal-text'>Atención sanitaria en menopausia y climaterio. Recogida de información y testimonios en el Estado español. </p>
+                    <p className='font-weight-bold normal-text'>Atención sanitaria en menopausia y climaterio.</p>
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
                     <Col className='mr-md-2'>
@@ -55,11 +66,3 @@ const Research = () => {
 }
 
 export default Research
-/** 
-<Col   >
-<p className='text-justify'>El confinamiento total que vivimos todas las personas durante el año 2020 lo hemos pasado de infinidad de maneras distintas, pero hay peculiaridades concretas, comunes a todas las menstruantes, que nos llevaron a sacar conclusiones sobre el hecho de vivir el ciclo desde  estados emocionales, anímicos, físicos y fisiológicos
-</p>
-</Col>
-<Col>
-<p className='text-justify'>vinculados con el hecho de estar privadas del vínculo social; con miedo o tristeza por la pérdida de un familiar querido sin haberle podido despedir; privadas de nuestras rutinas laborales, académicas y/o deportivas y culturales; o porque hemos seguido teniendo que salir a trabajar exponiéndonos aún más al virus Covid-19.</p>
-</Col>*/
