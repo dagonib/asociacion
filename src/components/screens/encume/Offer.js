@@ -8,8 +8,6 @@ import useWindowSize from '../../../utilities/useWindowSize'
 
 // Assets
 import img_offer from '../../../assets/img/offer.png'
-import img_offer_md from '../../../assets/img/offer-md.png'
-import img_offer_lg from '../../../assets/img/offer-lg.png'
 // Styles
 import '../../../styles/encume/offer.style.scss'
 

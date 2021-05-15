@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Row, Col, Accordion, Card, Image } from 'react-bootstrap'
+import { Container, Row, Col, Accordion, Card } from 'react-bootstrap'
 
 // Iconos
 import { FaAngleDown } from "react-icons/fa";
