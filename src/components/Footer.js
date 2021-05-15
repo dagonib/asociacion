@@ -64,11 +64,12 @@ const Footer = () => {
                                     <Nav.Link className='text-white p-0'>EnCuMe</Nav.Link>
                                 </LinkContainer>
                                 <LinkContainer to='/quienessomos'>
-                                    <Nav.Link className='text-white p-0'>Quienes Somos</Nav.Link>
+                                    <Nav.Link className='text-white p-0'>Quiénes Somos</Nav.Link>
                                 </LinkContainer>
                             </Nav>
                         </Col>
-                    </Row><Row>
+                    </Row>
+                    <Row className='d-none'>
                         <Col className='text-white text-center p-2'>
                             <p className='small-text'>Salvemos la revista MyS (Mujeres y Salud). <br/>SUSCRÍBETE en www.mys.matriz.net</p>
                         </Col>

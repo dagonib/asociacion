@@ -47,7 +47,7 @@ const Navigation = () => {
                                 <Nav.Link className="text-white mt-3 mt-md-0 py-0">EnCuMe</Nav.Link>
                             </LinkContainer>
                             <LinkContainer to='/quienessomos'>
-                                <Nav.Link className="text-white mt-3 mt-md-0 py-0">Quienes Somos</Nav.Link>
+                                <Nav.Link className="text-white mt-3 mt-md-0 py-0">Quiénes Somos</Nav.Link>
                             </LinkContainer>
                             <RRSS align='d-flex justify-content-end text-white ml-2 mt-3 mt-md-0 m-0' size='16' />
                         </Nav>

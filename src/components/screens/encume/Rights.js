@@ -4,9 +4,6 @@ import { Container, Row, Col, Accordion, Card, Image } from 'react-bootstrap'
 // Iconos
 import { FaAngleDown } from "react-icons/fa";
 
-// Assets
-import img_rights_sm from '../../../assets/img/rights-sm.png'
-
 // Styles
 import '../../../styles/encume/rights.styles.scss'
 
@@ -17,10 +14,11 @@ const Rights = () => {
             <Container fluid className='p-0'>
                 <Row className='d-flex flex-column-reverse m-0'>
                     <Col className='d-flex flex-column px-3 px-0'>
-                        <Row className='d-flex justify-content-center mx-0'>
-                            <h2 className='title-section  m-0 text-center'>Cultura Menstrual y Derechos</h2>
-                            <p className='normal-text  text-center mx-0 mx-sm-2 mt-3'>Apostamos por la toma de consciencia individual en cuanto a la vivencia de los procesos fisiológicos propios y naturales asociados con el ciclo menstrual y la sexualidad femenina, pero estos también deben estar respaldados en el marco de los derechos. </p>
-                            <p className='normal-text  text-center mx-0 mx-sm-2 mt-3'>Por ello, queremos destacar de qué manera algunos de los derechos humanos universalmente aceptados pueden ser socavados por las connotaciones culturales asociadas a la menstruación. Estos son, entre otros:</p>
+                        <Row className='d-flex flex-column justify-content-center mx-0'>
+                            <h2 className='title-section m-0 text-center'>Cultura Menstrual y Derechos</h2>
+                            <p className='small-text text-center mx-0 mx-sm-2 mt-1'>Fuente: UNFPA (Fondo de población de las Naciones Unidas)</p>
+                            <p className='normal-text text-center mx-0 mx-sm-2 mt-3'>Apostamos por la toma de consciencia individual en cuanto a la vivencia de los procesos fisiológicos propios y naturales asociados con el ciclo menstrual y la sexualidad femenina, pero estos también deben estar respaldados en el marco de los derechos. </p>
+                            <p className='normal-text text-center mx-0 mx-sm-2 mt-3'>Por ello, queremos destacar de qué manera algunos de los derechos humanos universalmente aceptados pueden ser socavados por las connotaciones culturales asociadas a la menstruación. Estos son, entre otros:</p>
                         </Row>
                         <Row className='d-flex justify-content-center mx-0 mx-sm-2'> 
                             <Accordion className='accordion d-flex flex-column flex-md-row'>
@@ -75,12 +73,6 @@ const Rights = () => {
                                 </Col>
                             </Accordion>
                         </Row>
-                    </Col>
-                    <Col className='px-0 d-none'>
-                        <Image
-                            className='purpose-image'
-                            src={img_rights_sm}
-                        />
                     </Col>
                 </Row>
             </Container>
