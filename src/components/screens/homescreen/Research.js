@@ -1,20 +1,13 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Container, Button } from 'react-bootstrap'
-import Aos from 'aos'
-import "aos/dist/aos.css"
-
 // Styles
 import '../../../styles/homescreen/research.styles.scss'
 
 const Research = () => {
-    useEffect(() => {
-        Aos.init({duration: 2000})
-    }, [])
-
+ 
     return (
-        <Row className='research overflow mt-5 m-0'>
+        <Row className='research mt-5 m-0'>
             <Container 
-                    data-aos="fade-right"
                     className='container'>
                 <Row className='d-flex flex-column m-0'>
                     <h2 

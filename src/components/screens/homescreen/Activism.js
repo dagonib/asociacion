@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Image, Container, Card, Button } from 'react-bootstrap'
-import Aos from 'aos'
-import "aos/dist/aos.css"
 
 // Assets
 import img_manifiesto from '../../../assets/img/logos/manifiesto.png'
@@ -13,21 +11,16 @@ import activisms from '../../../assets/files/activisms.pdf'
 import '../../../styles/homescreen/activism.styles.scss'
 
 const Activism = () => {
-    useEffect(() => {
-        Aos.init({duration: 2000})
-    }, [])
 
     return (
-        <Container fluid className='activism overflow my-5 px-1 px-sm-2 px-md-3 px-lg-4 px-md-5'>
+        <Container fluid className='activism my-5 px-1 px-sm-2 px-md-3 px-lg-4 px-md-5'>
             <Row 
-                data-aos="fade-right"
                 className='flex-column  m-0'
             >
                 <h2 className='title-section m-0 text-center'>Activismo</h2>
                 <p className='normal-text text-center mt-3'>Para nosotras, nuestro activismo tiene una dedicación intensa que implica realizar acciones cotidianas o puntuales donde buscamos revertir creencias, mitos, tabúes, estigmas, violencias y prejuicios de género sobre la experiencia menstrual y climatérica.</p>
             </Row>
             <Row 
-                data-aos="fade-left"
                 className='activism d-flex flex-column ml-4 ml-md-5 mt-1 px-0 pb-0  m-0 '
             >
                 <Col 

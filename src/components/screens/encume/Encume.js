@@ -1,7 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Image, Container, Button } from 'react-bootstrap'
-import Aos from 'aos'
-import "aos/dist/aos.css"
 
 import useWindowSize from '../../../utilities/useWindowSize'
 
@@ -16,15 +14,9 @@ import '../../../styles/encume/encume.styles.scss'
 const Encume = () => {
     const { width }  = useWindowSize()
 
-    useEffect(() => {
-        Aos.init({duration: 2000})
-    }, [])
-
-
     return (
-        <Row className='encume overflow d-flex flex-column-reverse flex-md-row bg-secondary px-0 mx-0 mb-5 p-md-5'>
+        <Row className='encume  d-flex flex-column-reverse flex-md-row bg-secondary px-0 mx-0 mb-5 p-md-5'>
             <Col 
-                data-aos="fade-right"
                 className='textbox d-flex align-self-center px-4 pt-3 pb-5 pl-md-0 pr-md-4 py-md-0 bg-secondary'>
                 <Container className='p-0'>                   
                     <h2 className='title-section text-center text-white mb-3 m-0'>Evento anual</h2>
@@ -37,7 +29,6 @@ const Encume = () => {
                 </Container>
             </Col>
             <Col 
-                data-aos="fade-left"
                 className='imgbox d-flex flex-column-reverse flex-md-column align-self-center p-0 pl-md-4'>
                     <Image 
                         className='encume_logo align-self-center mt-3 mt-md-0 mb-md-3'
