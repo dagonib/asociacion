@@ -1,9 +1,6 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Image, Container } from 'react-bootstrap'
 import useWindowSize from '../../../utilities/useWindowSize'
-
-import Aos from 'aos'
-import "aos/dist/aos.css"
 
 // Styles
 import '../../../styles/quienessomos/us.styles.scss'
@@ -16,14 +13,9 @@ import img_us_lg from '../../../assets/img/us-lg.png'
 const Us = () => {
     const { width }  = useWindowSize()
 
-    useEffect(() => {
-        Aos.init({duration: 2000})
-    }, [])
-
     return (
         <Row className='us d-flex flex-column-reverse flex-md-row bg-secondary px-0 mx-0 mb-5 p-md-5'>
             <Col 
-                data-aos="fade-right"
                 className='textbox d-flex align-self-center px-4 py-5 pl-md-0 pr-md-4 py-md-0'>
                 <Container className='p-0'>                   
                     <h2 className='title-section text-center text-white mb-3 m-0'>Quiénes somos</h2>
@@ -39,7 +31,6 @@ const Us = () => {
                 </Container>
             </Col>
             <Col 
-                data-aos="fade-left"
                 className='imgbox d-flex align-self-center p-0 pl-md-4'>
                 { width > 992 ? (
                     <Image

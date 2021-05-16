@@ -1,8 +1,5 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import { Row, Col, Image, Container } from 'react-bootstrap'
-
-import Aos from 'aos'
-import "aos/dist/aos.css"
 
 import useWindowSize from '../../../utilities/useWindowSize'
 
@@ -14,14 +11,9 @@ import '../../../styles/encume/offer.style.scss'
 const Offer = () => {
     const { width }  = useWindowSize()
 
-    useEffect(() => {
-        Aos.init({duration: 2000})
-    }, [])
-
     return (
         <Row className='offer d-flex flex-column-reverse flex-md-row px-0 mx-0 mb-5 p-md-5'>
             <Col 
-                data-aos="fade-right"
                 className='offer-content d-flex align-items-center py-3 px-3 px-md-4 px-lg-5'>
                 <Container className='py-3 p-0'>
                     <h1 className='title-section m-0 text-center text-white mb-3'>Ofrecemos</h1>
@@ -37,7 +29,6 @@ const Offer = () => {
                 </Container>
             </Col>
             <Col 
-                data-aos="zoom-out-up"
                 className='imgbox d-flex align-self-center p-0 pl-md-4'>
                 
                 { width > 1056 ? (

@@ -73,6 +73,9 @@ const Rights = () => {
                                 </Col>
                             </Accordion>
                         </Row>
+                        <Row className='d-flex flex-column justify-content-center mx-0'>
+                            <p className='small-text text-right mx-0 mx-sm-2 mt-5'>Fuente: UNFPA (Fondo de población de las Naciones Unidas)</p>
+                        </Row>
                     </Col>
                 </Row>
             </Container>
