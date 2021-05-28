@@ -2,6 +2,7 @@ import React from 'react'
 import { Row, Col, Container, Button } from 'react-bootstrap'
 // Styles
 import '../../../styles/homescreen/research.styles.scss'
+import menopausia from '../../../assets/files/estudio.pdf'
 
 const Research = () => {
  
@@ -27,7 +28,7 @@ const Research = () => {
                     </Col>
                 </Row>
                 <Row className='d-flex flex-column'>
-                    <p className='text-center normal-text'>Puedes leer el artículo con los primeros resultados aquí: </p>
+                    <p className='text-center normal-text'>Puedes leer el artículo con los resultados aquí (página 13): </p>
                     <Button 
                         href='https://matriz.net/mys4849/img/mys49-especial-covid.pdf' 
                         target="_blank"
@@ -46,11 +47,11 @@ const Research = () => {
                     </Col>
                 </Row>
                 <Row className='d-flex flex-column'>
-                    <p className='text-center normal-text'>Puedes leer el artículo con los primeros resultados a partir del 1 de junio 2021. </p>
+                    <p className='text-center normal-text'>Puedes leer el artículo con los resultados aquí:</p>
                     <Button 
-                        href='https://matriz.net/mys4849/img/mys49-especial-covid.pdf' 
+                        href={menopausia} 
                         target="_blank"
-                        className='d-none activity_button align-self-center rounded-0'
+                        className='activity_button align-self-center rounded-0'
                     >Leer Artículo</Button>
                 </Row>
             </Container>
