@@ -40,10 +40,10 @@ const Research = () => {
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
                     <Col className='mr-md-2'>
-                        <p className='text-justify normal-text'>Esta iniciativa surge de Marisela Romero Psicóloga y Promotora de Igualdad de Género y por cientos de mujeres que se sumaron a su deseo de crear un escrito para demandar una atención sanitaria de calidad, integral y sin juicios. Marisela forma parte de FemIgual, Asociación de Mujeres para la Promoción de la Igualdad de Género.</p>
+                        <p className='text-justify normal-text'>Esta Asociación ha respaldado un estudio sobre cómo perciben las mujeres en el Estado español, la atención sanitaria en la etapa de la menopausia y climaterio. Nace de la iniciativa de Carolina Ackermann, cofundadora de la Asociación de Cultura Menstrual, La Vida en Rojo..</p>
                     </Col>
                     <Col className='ml-md-2'>
-                        <p className='text-justify normal-text'>Colabora Carolina Ackermann, cofundadora de la Asociación de Cultura Menstrual, La Vida en Rojo, entidad que apoya, difunde y proporciona los resultados de este estudio.</p>
+                        <p className='text-justify normal-text'>Colabora Marisela Romero psicóloga y promotora de Igualdad de Género, cofundadora de la Asociación FemIgual, impulsora del objetivo final de este estudio, que es el de elaborar un modelo de carta que ampare y empodere a las mujeres a la hora de solicitar una correcta atención sanitaria.</p>
                     </Col>
                 </Row>
                 <Row className='d-flex flex-column'>
@@ -52,7 +52,7 @@ const Research = () => {
                         href={menopausia} 
                         target="_blank"
                         className='activity_button align-self-center rounded-0'
-                    >Leer Artículo</Button>
+                    >Leer Estudio</Button>
                 </Row>
             </Container>
         </Row>
