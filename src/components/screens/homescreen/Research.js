@@ -35,7 +35,7 @@ const Research = () => {
                         className='activity_button align-self-center rounded-0'
                     >Leer Artículo</Button>
                 </Row>
-                <Row className='d-flex flex-column mt-5 m-0'>
+                <Row className='d-flex flex-column mt-5 m-0' id='estudio'>
                     <p className='font-weight-bold normal-text'>Atención sanitaria en menopausia y climaterio.</p>
                 </Row>
                 <Row  className='d-flex flex-column flex-md-row'>
