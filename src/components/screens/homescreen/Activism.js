@@ -6,6 +6,7 @@ import img_manifiesto from '../../../assets/img/logos/manifiesto.png'
 import activism_2 from '../../../assets/img/activism-2.png'
 import logo from '../../../assets/img/logos/logo-icon.png'
 import activisms from '../../../assets/files/activisms.pdf'
+import solicitud from '../../../assets/files/solicitud.pdf'
 
 // Styles
 import '../../../styles/homescreen/activism.styles.scss'
@@ -111,6 +112,23 @@ const Activism = () => {
                                     target="_blank"
                                     className='activity_button align-self-center rounded-0'
                                 >Ver documento</Button>
+                            </div>
+                        </Col>
+                    </Row>
+                </Card>
+                
+                <Card 
+                    data-aos="zoom-in" 
+                    className="activity rounded-0 border-0 m-2 m-sm-2 mb-3">
+                    <Row className="no-gutters">
+                        <Col md={12} className="d-flex align-items-center">
+                            <div className="activity_info card-body d-flex flex-column justify-content-center">
+                                <h5 className="card-title text-center">Campaña de solicitud de Atención Sanitaria en Menopausia y Climaterio</h5>
+                                <Button 
+                                    href={solicitud}
+                                    target="_blank"
+                                    className='activity_button align-self-center rounded-0'
+                                >Obtener documento</Button>
                             </div>
                         </Col>
                     </Row>

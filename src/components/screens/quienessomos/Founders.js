@@ -127,18 +127,18 @@ const Founders = () => {
                         </div>
                         <Card.Body className='founder_info mt-4 px-0 pl-sm-4 pl-lg-0'>
                             <h4>Ana Luisa Meza</h4>
-                            <span>Proyecto Lunita Roja</span>
-                            <p className='small-text'>Soy Ana Luisa Meza Ferrari, creadora del proyecto de psicoeducación menstrual Lunita Roja, apasionada por los universos y procesos femeninos. Mujer, madre, migrante y psicóloga especializada en ciclos femeninos y salud menstrual, maternidades, vínculo materno infantil y Máster en Danza Movimiento Terapia por la UAB. Doula de gestación, parto y puerperio certificada, facilitadora certificada de Danza Útera (R) y de Círculos de niñas de Templo Femenino.</p>
+                            <span>Proyecto Psicoutera</span>
+                            <p className='small-text'>Soy Ana Luisa Meza Ferrari, creadora del proyecto de Psicoutera. Apasionada por los universos femeninos y las Maternidades. Máster en Danza Movimiento Terapia. Doula certificada en el acompañamiento de las maternidades, partos y nacimientos. Facilitadora de ®Danza Útera, Círculos de Niñas y Yoga pre y posnatal. Educadora de Masaje Infantil certificada por AEMI/IAMI, Asesora de Porteo Ergonómico y Lactancia Materna. Actual Presidenta de la Asociación de Danza Movimiento Terapia Española. </p>
                             <div className='social d-flex justify-content-center justify-content-sm-start mt-3'>
                                 <Nav.Link 
-                                    href='https://www.instagram.com/lunita.roja.menstrual/' 
+                                    href='https://www.instagram.com/psicoutera/' 
                                     target="_blank"
                                     className='p-0 mr-2'
                                 >
                                     <FaInstagramSquare size={24} />
                                 </Nav.Link>
                                 <Nav.Link 
-                                    href='https://lunitaroja.com/' 
+                                    href='https://psicoutera.com/' 
                                     target="_blank"
                                     className='p-0 mr-2'
                                 >
