@@ -10,7 +10,7 @@ import img_purpose_md from '../../../assets/img/img-purpose-md.png'
 import '../../../styles/homescreen/purpose.styles.scss'
 
 // Archivos
-import dossier from '../../../assets/files/dossier.pdf'
+import dossier from '../../../assets/files/maig2022.pdf'
 
 const Purpose = () => {
     const { width }  = useWindowSize()
@@ -38,11 +38,12 @@ const Purpose = () => {
                     <p className='normal-text text-white text-justify px-0 m-0'>Desde la Asociación de Cultura Menstrual, La Vida en Rojo, buscamos divulgar conocimientos sobre el ciclo menstrual y el climaterio para que las niñas, las mujeres y personas que transitan estas etapas, podamos desarrollar todo nuestro potencial con información y recursos.</p>
                     <p className='normal-text text-white text-justify px-0 m-0'>Para ello, elaboramos documentos e investigamos sobre educación y salud del ciclo menstrual y el climaterio, coordinamos eventos, realizamos activismo y campañas por la justicia y dignidad menstrual. </p>
                     <p className='normal-text text-white text-justify px-0 m-0'>También tenemos la voluntad de crear redes entre profesionales dedicadas a la Cultura menstrual, tanto en el ámbito del Estado español como de América Latina.</p>
+                    <p className='normal-text text-white text-justify px-0 m-0'>Ejes de intervención de la ACM LVR: Activismo, Investigación, Divulgación, Educación.</p>
                     <Button 
                         href={dossier}
                         target="_blank"
                         className='purpose_button normal-text align-self-center mt-4 rounded-0'
-                    >Más Información</Button>
+                    >Calendario de actividades / MAYO 2022</Button>
                 </Container>
             </Col>
         </Row>

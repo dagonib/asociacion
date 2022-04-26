@@ -1,0 +1,36 @@
+.education {
+    & .card-1, .card-2, .card-3 {
+        border-radius: 0;
+        border: 2px solid #C42664;
+    }
+
+    & .card-1 {
+        border-left: 0;
+        border-bottom: 0;
+        margin-bottom: 0!important;   
+    }
+    & .card-2 {
+        border-left: 2px outset #C42664!important;   
+        border-right: 0;
+        border-bottom: 0;
+        margin-bottom: 0!important;  
+    }
+    & .card-3 {
+        border-left: 0;
+    }
+
+    @media only screen and (min-width: 768px) {
+        & .card-1 {
+            border-right: 0;
+        }
+        & .card-2 {
+            border-top: 0;
+            border-bottom: 2px outset #C42664!important;   
+            border-right: 2px outset #C42664!important;  
+        }
+        & .card-3 {
+            border-bottom: 0;
+            border-right: 0;
+        }
+    }
+}

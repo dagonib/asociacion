@@ -30,7 +30,7 @@ const Footer = () => {
                         </Col>
                         {/*<!-- RRSS -->*/}
                         <Col md={4} className="d-flex flex-column align-items-center my-4 px-0">
-                           <Row>
+                            <Row>
                                 <h4 className="title-section text-white mb-1 mb-0 ">Socializa</h4>
                             </Row> 
                             <Row>
@@ -48,8 +48,10 @@ const Footer = () => {
                                 >
                                     <FaInstagramSquare size={20} />
                                 </Nav.Link>
-                            </Row>
-                            
+                            </Row>                            
+                            <Row>
+                                <p className="text-white mb-1 mb-0 ">asociacionculturamenstrual@gmail.com</p>
+                            </Row> 
                         </Col>
                         {/*<!-- Navigation -->*/}
                         <Col md={4} className="px-0">
@@ -70,8 +72,13 @@ const Footer = () => {
                         </Col>
                     </Row>
                     <Row className='d-none'>
-                        <Col className='text-white text-center p-2'>
+                        <Col className='small-text text-white text-center p-2'>
                             <p className='small-text'>Salvemos la revista MyS (Mujeres y Salud). <br/>SUSCRÍBETE en www.mys.matriz.net</p>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className='small-text text-white text-center p-2'>
+                            <h3 className='text-white'>L’associació denominada Asociación de Cultura Menstrual en Cataluña s'ha inscrit a la secció 1a del Registre d'associacions de la Generalitat de Catalunya amb data 22/02/2021  NIF: G05361753</h3>
                         </Col>
                     </Row>
                     <Row>
