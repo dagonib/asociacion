@@ -9,8 +9,10 @@ const Press = () => {
         <Row className='press my-5 m-0'>
             <Container className='container'>
                 <Row className='d-flex flex-column mb-3 m-0'>
-                    <h2 className='title-section m-0 text-center m-0'>En los Medios</h2>
-                    <p className='normal-text text-center '>Artículos que nos han publicado en la prensa escrita y digital.</p>
+                    <h2 className='title-section m-0 text-center m-0'>Divulgación</h2>
+                    <p className='normal-text text-center mb-1'>Participación en charlas, congresos y espacios feministas.</p>
+                    <p className='normal-text text-center mb-4'>Creación de material informativo sobre el ciclo menstrual y el climaterio</p>
+                    <h4 className='normal-text text-center text-uppercase mb-1'>Artículos publicados.</h4>
                 </Row>
                 <Row className='d-flex flex-column m-0'>
                     <Col className='p-0'>
