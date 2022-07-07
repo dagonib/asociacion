@@ -51,7 +51,7 @@ const Founders = () => {
                                     <FaInstagramSquare size={24} />
                                 </Nav.Link>
                                 <Nav.Link 
-                                    href='http://espaciomatriz.com/' 
+                                    href='http://lavidaenrojo.org/' 
                                     target="_blank"
                                     className='p-0 mr-2'
                                 >

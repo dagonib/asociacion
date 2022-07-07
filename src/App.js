@@ -5,6 +5,7 @@ import Navigation from './components/Navigation'
 import HomeScreen from './screens/HomeScreen'
 import Encume from './screens/Encume'
 import QuienesSomos from './screens/QuienesSomos'
+import PrivacyPolicy from './screens/PrivacyPolicy'
 
 import './App.scss'
 import ScrollToTop from './utilities/ScrollToTop'
@@ -19,6 +20,7 @@ const App = () => {
             <Route path='/inicio' component={HomeScreen} />
             <Route path='/encume' component={Encume} />
             <Route path='/quienessomos' component={QuienesSomos} />
+            <Route path='/politicaprivacidad' component={PrivacyPolicy} />
         </main>
         <Footer />
     </Router>
