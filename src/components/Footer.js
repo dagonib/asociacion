@@ -81,9 +81,12 @@ const Footer = () => {
                             <h3 className='text-white'>L’associació denominada Asociación de Cultura Menstrual en Cataluña s'ha inscrit a la secció 1a del Registre d'associacions de la Generalitat de Catalunya amb data 22/02/2021  NIF: G05361753</h3>
                         </Col>
                     </Row>
-                    <Row>
-                        <Col className='small-text text-center p-2'>
-                            <h3>Design by SlashDEV@2021</h3>
+                    <Row className="p-0 m-0">
+                        <Col className='d-flex flex-column align-items-center justify-content-center small-text text-white text-center p-2'>
+                            <p className='navegation-text m-0 p-0'>@LAVIDAENROJO.2021 | Todos los derechos reservados</p>
+                            <LinkContainer to='/politicaprivacidad' className='d-flex align-items-center p-0 m-0'>
+                                <Nav.Link className='small-text navegation-text ml-1 p-0 m-0'>Política privacidad</Nav.Link>
+                            </LinkContainer>
                         </Col>
                     </Row>
                 </Container>
